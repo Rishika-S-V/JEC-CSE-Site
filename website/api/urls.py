@@ -9,4 +9,5 @@ router.register(r"students", views.StudentModelViewSet)
 urlpatterns = [
     path("", views.index, name="index"),
     path("api/", include(router.urls)),
+    path("api/students/batch/<batch>", views.StudentBatchView.as_view()),
 ]

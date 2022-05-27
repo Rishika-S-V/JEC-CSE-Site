@@ -1,2 +1,2 @@
 from .views import index
-from .student import StudentModelViewSet
+from .student import StudentModelViewSet, StudentBatchView
