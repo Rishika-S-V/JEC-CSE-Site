@@ -1,3 +1,4 @@
+from multiprocessing.sharedctypes import Value
 from rest_framework import serializers
 from django.utils import timezone
 
@@ -16,4 +17,9 @@ class StaffSerializer(serializers.ModelSerializer):
         return timezone.now().year - instance.dob.year
 
     def get_experience_(self, instance: Staff):
-        return 4 - (instance.date_of_experience.year - timezone.now().year)
+        return timezone.now().year - instance.date_of_experience.year
+
+    def validate_bio_data(self, fname):
+        if fname.name.split(".")[-1] not in ["pdf"]:
+            raise serializers.ValidationError("only pdf is allowed")
+        return fname
