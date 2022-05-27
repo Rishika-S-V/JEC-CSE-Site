@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "c7dcf2b9-82d4-41f8-b336-776765f3b4f8",
+    "colName": "Staffs",
+    "created": "2022-05-27T06:35:56.262Z",
+    "sortNum": 10000,
+    "folders": []
+  },
+  {
+    "_id": "f5d3c3cc-1722-4a38-975e-21790a16de5b",
+    "colName": "Students",
+    "created": "2022-05-27T15:38:58.560Z",
+    "sortNum": 20000,
+    "folders": [
+      {
+        "_id": "fd5bc085-7a83-4caf-8c50-97e719818f22",
+        "name": "post_list",
+        "containerId": "",
+        "created": "2022-05-27T15:43:57.685Z",
+        "sortNum": 10000
+      }
+    ]
+  }
+]
