@@ -6,9 +6,12 @@ from . import views
 router = routers.DefaultRouter()
 router.register(r"students", views.StudentModelViewSet)
 router.register(r"staffs", views.StaffModelViewSet)
+router.register(r"alumni-work", views.AlumniWorkModelViewSet)
 
 urlpatterns = [
-    path("", views.index, name="index"),
-    path("api/", include(router.urls)),
-    path("api/students/batch/<batch>", views.StudentBatchView.as_view()),
+    path("", include(router.urls)),
+    path("students/batch/<int:batch>", views.StudentBatchView.as_view()),
+    path("alumni/", views.AlumniListView.as_view()),
+    path("alumni/<int:id>", views.AlumniDetailView.as_view()),
+    path("alumni-work/multivalued/<int:id>", views.AlumniWorkMultivaluedView.as_view()),
 ]
