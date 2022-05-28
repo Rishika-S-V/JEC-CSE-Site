@@ -20,5 +20,12 @@
         "sortNum": 10000
       }
     ]
+  },
+  {
+    "_id": "e0954fc5-458d-4686-bf72-109865e78acd",
+    "colName": "Alumni",
+    "created": "2022-05-27T16:09:05.192Z",
+    "sortNum": 30000,
+    "folders": []
   }
 ]
