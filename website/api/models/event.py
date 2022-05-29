@@ -1,5 +1,7 @@
 from django.db import models
 
+from . import Student
+
 
 class Event(models.Model):
     title = models.CharField(max_length=256)
@@ -12,6 +14,7 @@ class Event(models.Model):
     cover_picture = models.FileField(
         upload_to="events/cover_pictures", null=True, blank=True, max_length=1024
     )
+    coordinators = models.ManyToManyField(Student, related_name="events_coordinated")
 
 
 class EventPhoto(models.Model):

@@ -1,11 +1,15 @@
 from rest_framework import views, viewsets
-import json
 from rest_framework.response import Response
 from rest_framework.request import Request
 
 
-from ..models import Event, EventPhoto, EventVideo
-from ..serializers import EventSerializer, EventPhotoSerializer, EventVideoSerializer
+from ..models import Event, EventPhoto, EventVideo, Student
+from ..serializers import (
+    EventSerializer,
+    EventPhotoSerializer,
+    EventVideoSerializer,
+    StudentSerializer,
+)
 
 
 class EventPhotoModelViewSet(viewsets.ModelViewSet):
@@ -38,6 +42,10 @@ class EventListView(views.APIView):
                 EventVideoSerializer(instance, context={"request": request}).data
                 for instance in EventVideo.objects.filter(event=val.get("id"))
             ]
+            val["coordinators"] = [
+                StudentSerializer(Student.objects.get(id=pk)).data
+                for pk in val.get("coordinators")
+            ]
         return Response(res)
 
 
@@ -55,6 +63,10 @@ class EventDetailView(views.APIView):
         res["videos"] = [
             EventVideoSerializer(instance, context={"request": request}).data
             for instance in EventVideo.objects.filter(event=res.get("id"))
+        ]
+        res["coordinators"] = [
+            StudentSerializer(Student.objects.get(id=pk)).data
+            for pk in res.get("coordinators")
         ]
         return Response(res)
 

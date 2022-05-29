@@ -671,11 +671,11 @@
     "colId": "0f6f3eec-fd53-4f06-9c6c-8f20b44aba86",
     "containerId": "",
     "name": "Event Detail",
-    "url": "localhost:8000/api/event/2",
+    "url": "localhost:8000/api/event/1",
     "method": "GET",
     "sortNum": 30000,
     "created": "2022-05-29T01:22:34.017Z",
-    "modified": "2022-05-29T03:22:26.645Z",
+    "modified": "2022-05-29T04:09:25.647Z",
     "headers": [],
     "params": [],
     "tests": []
