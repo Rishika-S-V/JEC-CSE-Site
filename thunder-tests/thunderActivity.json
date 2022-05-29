@@ -181,5 +181,221 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "19749661-bf17-414b-9425-a80f37c28b3c",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/alumni-work/1",
+    "url": "localhost:8000/api/alumni-work/1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-28T16:41:12.679Z",
+    "modified": "2022-05-28T16:41:12.702Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "267d27a5-7c8e-4176-9d8a-3e5fc92e00cc",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/alumni-work/",
+    "url": "localhost:8000/api/alumni-work/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-28T16:42:18.817Z",
+    "modified": "2022-05-28T16:42:39.096Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "666ca0f8-6cb8-4b74-89be-e3739c75005d",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/event-photos/",
+    "url": "localhost:8000/api/event-photos/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-28T17:41:09.837Z",
+    "modified": "2022-05-28T17:42:10.371Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "1"
+        }
+      ],
+      "files": [
+        {
+          "name": "path",
+          "value": "../../../../../../home/naveen/Downloads/mateo-nCU4yq5xDEQ-unsplash.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "d0e6c6b2-e1f0-497d-96a1-e55226ea5803",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/event-photos/",
+    "url": "localhost:8000/api/event-photos/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-05-28T17:42:17.238Z",
+    "modified": "2022-05-28T18:09:09.917Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "event",
+          "value": "3"
+        }
+      ],
+      "files": [
+        {
+          "name": "path",
+          "value": "../../../../../../home/naveen/Downloads/filippo-martini-edWYPlHbv_w-unsplash.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "36ed2d37-df15-4bdf-885b-f90d6fd4c4de",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/event/",
+    "url": "localhost:8000/api/event/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-05-28T17:50:23.349Z",
+    "modified": "2022-05-28T18:06:02.319Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "event",
+          "value": "1"
+        }
+      ],
+      "files": [
+        {
+          "name": "path",
+          "value": "../../../../../../home/naveen/Downloads/axville-qq-brBsFU7w-unsplash.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "97b3259e-2e39-4a21-a2c4-85709cf72245",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/event-photos/multivalued/1",
+    "url": "localhost:8000/api/event-photos/multivalued/1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-28T18:06:47.235Z",
+    "modified": "2022-05-28T18:06:48.502Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ee736c2f-8e35-48ea-acc4-d0c1dce76f66",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/event-photos/multivalued/3",
+    "url": "localhost:8000/api/event-photos/multivalued/3",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-28T18:09:21.694Z",
+    "modified": "2022-05-28T18:09:21.709Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a43578fb-41e8-4517-9d38-3d2ce5ef4d73",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/aluni",
+    "url": "localhost:8000/api/aluni",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-29T01:07:29.311Z",
+    "modified": "2022-05-29T01:07:29.350Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "926dd10a-3360-48c2-a04e-754eaba51369",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/alumni",
+    "url": "localhost:8000/api/alumni",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-29T01:07:33.836Z",
+    "modified": "2022-05-29T01:07:33.876Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "84efc085-26ca-492f-ad33-2f131669e5f4",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/alumni/1",
+    "url": "localhost:8000/api/alumni/1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-29T01:07:54.371Z",
+    "modified": "2022-05-29T01:07:54.390Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f6e13631-73fa-4fe4-9648-3a5b698ca9ca",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/alumni/1",
+    "url": "localhost:8000/api/alumni/1",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-05-29T01:08:01.371Z",
+    "modified": "2022-05-29T01:08:01.408Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a68ef69a-6904-4ab3-912b-52ae6d53c9e8",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/alumni/2",
+    "url": "localhost:8000/api/alumni/2",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-05-29T01:08:11.670Z",
+    "modified": "2022-05-29T01:08:11.706Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
