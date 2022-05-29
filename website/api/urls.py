@@ -8,6 +8,7 @@ router.register(r"students", views.StudentModelViewSet)
 router.register(r"staffs", views.StaffModelViewSet)
 router.register(r"alumni-work", views.AlumniWorkModelViewSet)
 router.register(r"event-photos", views.EventPhotoModelViewSet)
+router.register(r"event-videos", views.EventVideoModelViewSet)
 router.register(r"event-model", views.EventModelViewSet)
 
 urlpatterns = [
@@ -20,5 +21,8 @@ urlpatterns = [
     path("event/<int:id>", views.EventDetailView.as_view()),
     path(
         "event-photos/multivalued/<int:id>", views.EventPhotosMultivaluedView.as_view()
+    ),
+    path(
+        "event-videos/multivalued/<int:id>", views.EventVideosMultivaluedView.as_view()
     ),
 ]

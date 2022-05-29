@@ -45,7 +45,6 @@ class AlumniListView(views.APIView):
         alumni.save()
 
         for work in data.get("works"):
-            print(work)
             x = AlumniWork.objects.create(**work, alumni=alumni)
             works_objs.append(work)
             try:

@@ -1044,5 +1044,47 @@
       ]
     },
     "tests": []
+  },
+  {
+    "_id": "f83760ac-ee2b-4cef-9d37-7352f5cd0ccd",
+    "colId": "69deff8e-f704-40d9-83d6-b3176ab460cc",
+    "containerId": "e376ca81-3c96-4981-a159-f53c82e77a27",
+    "name": "List",
+    "url": "localhost:8000/api/students/",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-05-29T03:28:45.263Z",
+    "modified": "2022-05-29T03:29:43.111Z",
+    "headers": [],
+    "params": [],
+    "tests": [
+      {
+        "type": "res-code",
+        "custom": "",
+        "action": "equal",
+        "value": "200"
+      }
+    ]
+  },
+  {
+    "_id": "db8e7408-5c3d-412a-8929-f342e9525b91",
+    "colId": "69deff8e-f704-40d9-83d6-b3176ab460cc",
+    "containerId": "e376ca81-3c96-4981-a159-f53c82e77a27",
+    "name": "Individual",
+    "url": "localhost:8000/api/students/1",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-05-29T03:30:01.761Z",
+    "modified": "2022-05-29T03:30:11.228Z",
+    "headers": [],
+    "params": [],
+    "tests": [
+      {
+        "type": "res-code",
+        "custom": "",
+        "action": "equal",
+        "value": "200"
+      }
+    ]
   }
 ]

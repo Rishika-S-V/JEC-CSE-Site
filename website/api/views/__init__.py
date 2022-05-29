@@ -7,3 +7,12 @@ from .alumni import (
     AlumniWorkModelViewSet,
     AlumniWorkMultivaluedView,
 )
+from .event import (
+    EventPhotoModelViewSet,
+    EventVideoModelViewSet,
+    EventModelViewSet,
+    EventListView,
+    EventDetailView,
+    EventPhotosMultivaluedView,
+    EventVideosMultivaluedView,
+)
