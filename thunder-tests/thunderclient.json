@@ -671,11 +671,11 @@
     "colId": "0f6f3eec-fd53-4f06-9c6c-8f20b44aba86",
     "containerId": "",
     "name": "Event Detail",
-    "url": "localhost:8000/api/event/1",
+    "url": "localhost:8000/api/event/2",
     "method": "GET",
     "sortNum": 30000,
     "created": "2022-05-29T01:22:34.017Z",
-    "modified": "2022-05-29T01:22:50.476Z",
+    "modified": "2022-05-29T03:22:26.645Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -685,11 +685,11 @@
     "colId": "0f6f3eec-fd53-4f06-9c6c-8f20b44aba86",
     "containerId": "",
     "name": "List event Photos",
-    "url": "localhost:8000/api/event-photos/multivalued/1",
+    "url": "localhost:8000/api/event-photos/",
     "method": "GET",
     "sortNum": 30000,
     "created": "2022-05-29T01:23:18.561Z",
-    "modified": "2022-05-29T01:23:51.087Z",
+    "modified": "2022-05-29T03:21:57.797Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -881,6 +881,165 @@
         {
           "name": "path",
           "value": "../../../../../../home/naveen/Downloads/christian-wiediger-kf_korybd1g-unsplash.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "e6918b9c-5c03-439e-8d70-7cb32ab4390e",
+    "colId": "0f6f3eec-fd53-4f06-9c6c-8f20b44aba86",
+    "containerId": "",
+    "name": "Edit event",
+    "url": "http://localhost:8000/api/event-photos/1/",
+    "method": "PATCH",
+    "sortNum": 40000,
+    "created": "2022-05-29T02:55:59.744Z",
+    "modified": "2022-05-29T02:58:50.212Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "path",
+          "value": "../../../Python/Fullstack/BooksAPI/books_api/api/urls.py"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "b4f186fd-c02e-4bdb-bc91-605deca2b5ad",
+    "colId": "0f6f3eec-fd53-4f06-9c6c-8f20b44aba86",
+    "containerId": "",
+    "name": "List event Vidos",
+    "url": "localhost:8000/api/event-videos/multivalued/2",
+    "method": "GET",
+    "sortNum": 35000,
+    "created": "2022-05-29T03:16:17.421Z",
+    "modified": "2022-05-29T03:22:45.867Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b1c98a20-ffa0-4669-8094-bd29887ad1ff",
+    "colId": "27c26af6-7d9e-4c20-a9cf-f8872bf71266",
+    "containerId": "74bd3c30-70a6-4302-8f84-16e40b27ba9d",
+    "name": "Add Video 1",
+    "url": "localhost:8000/api/event-videos/",
+    "method": "POST",
+    "sortNum": 100000,
+    "created": "2022-05-29T03:18:28.066Z",
+    "modified": "2022-05-29T03:19:47.597Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "event",
+          "value": "1"
+        }
+      ],
+      "files": [
+        {
+          "name": "path",
+          "value": "../../../../../../home/naveen/Downloads/pexels-ivan-khmelyuk-7222009.mp4"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "22c5b132-43c1-4bb1-9900-f8fc63acdcf7",
+    "colId": "27c26af6-7d9e-4c20-a9cf-f8872bf71266",
+    "containerId": "74bd3c30-70a6-4302-8f84-16e40b27ba9d",
+    "name": "Add Video 2",
+    "url": "localhost:8000/api/event-videos/",
+    "method": "POST",
+    "sortNum": 110000,
+    "created": "2022-05-29T03:19:23.071Z",
+    "modified": "2022-05-29T03:19:23.071Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "event",
+          "value": "1"
+        }
+      ],
+      "files": [
+        {
+          "name": "path",
+          "value": "../../../../../../home/naveen/Downloads/production ID_4292567.mp4"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c3212533-af22-45b3-a881-f971b4625138",
+    "colId": "27c26af6-7d9e-4c20-a9cf-f8872bf71266",
+    "containerId": "828ebb8f-1cff-4e3b-817e-904872ddd9df",
+    "name": "Add Video 1",
+    "url": "localhost:8000/api/event-videos/",
+    "method": "POST",
+    "sortNum": 100000,
+    "created": "2022-05-29T03:20:28.364Z",
+    "modified": "2022-05-29T03:20:45.193Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "event",
+          "value": "2"
+        }
+      ],
+      "files": [
+        {
+          "name": "path",
+          "value": "../../../../../../home/naveen/Downloads/pexels-ivan-khmelyuk-7222009.mp4"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c50bc6c7-439a-473a-9983-632f5e44e615",
+    "colId": "27c26af6-7d9e-4c20-a9cf-f8872bf71266",
+    "containerId": "828ebb8f-1cff-4e3b-817e-904872ddd9df",
+    "name": "Add Video 2",
+    "url": "localhost:8000/api/event-videos/",
+    "method": "POST",
+    "sortNum": 110000,
+    "created": "2022-05-29T03:20:50.467Z",
+    "modified": "2022-05-29T03:21:13.670Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "event",
+          "value": "2"
+        }
+      ],
+      "files": [
+        {
+          "name": "path",
+          "value": "../../../../../../home/naveen/Downloads/production ID_4292567.mp4"
         }
       ]
     },
