@@ -703,7 +703,7 @@
     "method": "POST",
     "sortNum": 70000,
     "created": "2022-05-29T01:49:33.664Z",
-    "modified": "2022-05-29T02:24:28.791Z",
+    "modified": "2022-05-29T05:44:17.326Z",
     "headers": [],
     "params": [],
     "body": {
@@ -725,6 +725,14 @@
         {
           "name": "date",
           "value": "2022-01-01 13:30"
+        },
+        {
+          "name": "coordinators",
+          "value": "1"
+        },
+        {
+          "name": "coordinators",
+          "value": "2"
         }
       ]
     },
@@ -799,7 +807,7 @@
     "method": "POST",
     "sortNum": 70000,
     "created": "2022-05-29T01:59:45.852Z",
-    "modified": "2022-05-29T02:29:25.807Z",
+    "modified": "2022-05-29T05:49:43.194Z",
     "headers": [],
     "params": [],
     "body": {
@@ -821,6 +829,14 @@
         {
           "name": "date",
           "value": "2022-02-02 14:00"
+        },
+        {
+          "name": "coordinators",
+          "value": "1"
+        },
+        {
+          "name": "coordinators",
+          "value": "3"
         }
       ]
     },
@@ -1086,5 +1102,49 @@
         "value": "200"
       }
     ]
+  },
+  {
+    "_id": "080fcbf7-bf3c-498a-85c7-501b5f5ac4fb",
+    "colId": "0f6f3eec-fd53-4f06-9c6c-8f20b44aba86",
+    "containerId": "",
+    "name": "Patch Event",
+    "url": "localhost:8000/api/event-model/",
+    "method": "POST",
+    "sortNum": 12500,
+    "created": "2022-05-29T05:44:57.511Z",
+    "modified": "2022-05-29T05:45:01.855Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "web design"
+        },
+        {
+          "name": "description",
+          "value": "Lorem ipsum dolor sit amet."
+        },
+        {
+          "name": "venue",
+          "value": "Foss Lab"
+        },
+        {
+          "name": "date",
+          "value": "2022-01-01 13:30"
+        },
+        {
+          "name": "coordinators",
+          "value": "1"
+        },
+        {
+          "name": "coordinators",
+          "value": "2"
+        }
+      ]
+    },
+    "tests": []
   }
 ]
