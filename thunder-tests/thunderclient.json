@@ -1146,5 +1146,211 @@
       ]
     },
     "tests": []
+  },
+  {
+    "_id": "899588b4-7dfa-43d8-a836-e246fa07b132",
+    "colId": "0f6f3eec-fd53-4f06-9c6c-8f20b44aba86",
+    "containerId": "",
+    "name": "Add Winners",
+    "url": "localhost:8000/api/event-winner/",
+    "method": "POST",
+    "sortNum": 11250,
+    "created": "2022-05-29T13:30:40.405Z",
+    "modified": "2022-05-29T13:42:07.601Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "event",
+          "value": "1",
+          "isDisabled": true
+        },
+        {
+          "name": "students",
+          "value": "4"
+        },
+        {
+          "name": "students",
+          "value": "3"
+        },
+        {
+          "name": "position",
+          "value": "2"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "dc7ff421-fa05-4194-8676-a2a71349b391",
+    "colId": "27c26af6-7d9e-4c20-a9cf-f8872bf71266",
+    "containerId": "74bd3c30-70a6-4302-8f84-16e40b27ba9d",
+    "name": "Add Winners 1",
+    "url": "localhost:8000/api/event-winner/",
+    "method": "POST",
+    "sortNum": 120000,
+    "created": "2022-05-30T00:12:47.699Z",
+    "modified": "2022-05-30T00:16:08.690Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "position",
+          "value": "1"
+        },
+        {
+          "name": "event",
+          "value": "1"
+        },
+        {
+          "name": "students",
+          "value": "1"
+        },
+        {
+          "name": "students",
+          "value": "2"
+        }
+      ],
+      "files": [
+        {
+          "name": "photo",
+          "value": "../../../../../../home/naveen/Downloads/pexels-tom-swinnen-1309766.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "aa52e6c7-12ce-4634-9ee6-e04fe16ee296",
+    "colId": "27c26af6-7d9e-4c20-a9cf-f8872bf71266",
+    "containerId": "828ebb8f-1cff-4e3b-817e-904872ddd9df",
+    "name": "Add Winners 1",
+    "url": "localhost:8000/api/event-winner/",
+    "method": "POST",
+    "sortNum": 120000,
+    "created": "2022-05-30T00:16:34.137Z",
+    "modified": "2022-05-30T00:20:22.118Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "position",
+          "value": "1"
+        },
+        {
+          "name": "event",
+          "value": "2"
+        },
+        {
+          "name": "students",
+          "value": "3"
+        },
+        {
+          "name": "students",
+          "value": "4"
+        }
+      ],
+      "files": [
+        {
+          "name": "photo",
+          "value": "../../../../../../home/naveen/Pictures/Screenshots/Screenshot from 2022-05-23 07-14-56.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "690c6159-04e8-414f-ae29-c57155f836c6",
+    "colId": "27c26af6-7d9e-4c20-a9cf-f8872bf71266",
+    "containerId": "74bd3c30-70a6-4302-8f84-16e40b27ba9d",
+    "name": "Add Winners 2",
+    "url": "localhost:8000/api/event-winner/",
+    "method": "POST",
+    "sortNum": 130000,
+    "created": "2022-05-30T00:20:31.117Z",
+    "modified": "2022-05-30T00:21:01.355Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "position",
+          "value": "2"
+        },
+        {
+          "name": "event",
+          "value": "1"
+        },
+        {
+          "name": "students",
+          "value": "3"
+        },
+        {
+          "name": "students",
+          "value": "4"
+        }
+      ],
+      "files": [
+        {
+          "name": "photo",
+          "value": "../../../../../../home/naveen/Downloads/pexels-tom-swinnen-1309766.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "2fbf9247-640a-4896-8a05-7a5c17929ef2",
+    "colId": "27c26af6-7d9e-4c20-a9cf-f8872bf71266",
+    "containerId": "828ebb8f-1cff-4e3b-817e-904872ddd9df",
+    "name": "Add Winners 2",
+    "url": "localhost:8000/api/event-winner/",
+    "method": "POST",
+    "sortNum": 130000,
+    "created": "2022-05-30T00:21:17.116Z",
+    "modified": "2022-05-30T00:21:42.606Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "position",
+          "value": "2"
+        },
+        {
+          "name": "event",
+          "value": "2"
+        },
+        {
+          "name": "students",
+          "value": "2"
+        },
+        {
+          "name": "students",
+          "value": "4",
+          "isDisabled": true
+        }
+      ],
+      "files": [
+        {
+          "name": "photo",
+          "value": "../../../../../../home/naveen/Pictures/Screenshots/Screenshot from 2022-05-23 07-14-56.png"
+        }
+      ]
+    },
+    "tests": []
   }
 ]
