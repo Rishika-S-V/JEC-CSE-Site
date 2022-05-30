@@ -36,7 +36,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-05-27T03:11:00.463Z",
-    "modified": "2022-05-27T03:24:05.916Z",
+    "modified": "2022-05-30T05:08:00.999Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -92,7 +92,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-05-27T06:36:20.926Z",
-    "modified": "2022-05-27T06:36:20.962Z",
+    "modified": "2022-05-30T06:35:32.295Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -394,6 +394,20 @@
     "sortNum": 0,
     "created": "2022-05-29T01:08:11.670Z",
     "modified": "2022-05-29T01:08:11.706Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "0b7818ba-f54e-48d9-9314-e286789da9ae",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/api/students",
+    "url": "localhost:8000/api/students",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-30T05:01:09.161Z",
+    "modified": "2022-05-30T05:01:34.091Z",
     "headers": [],
     "params": [],
     "tests": []
