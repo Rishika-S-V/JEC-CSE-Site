@@ -1,4 +1,4 @@
-from .views import index
+from .views import index, get_choices
 from .student import StudentModelViewSet, StudentBatchView
 from .staff import StaffModelViewSet
 from .alumni import (

@@ -7,9 +7,9 @@ from ..models import Staff
 class AcademicCouncil(models.Model):
     HOD = "HOD"
     MEMBER = "Member"
-    DESIGNATION = ((HOD, "HOD"), (MEMBER, "Member"))
+    DESIGNATION = ((1, HOD), (2, MEMBER))
     staff = models.OneToOneField(Staff, on_delete=models.CASCADE)
-    designation = models.CharField(max_length=64, choices=DESIGNATION)
+    designation = models.IntegerField(choices=DESIGNATION)
 
 
 class AcademicCouncilMeeting(models.Model):

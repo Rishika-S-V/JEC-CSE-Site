@@ -21,6 +21,7 @@ from . import settings
 
 urlpatterns = [
     path("", views.index),
+    path("api/cache/get_choices", views.get_choices),
     path("api/", include("api.urls")),
     path("dj-admin/", admin.site.urls),
 ]
