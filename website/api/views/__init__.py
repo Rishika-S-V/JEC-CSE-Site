@@ -10,6 +10,7 @@ from .alumni import (
 from .event import (
     EventPhotoModelViewSet,
     EventVideoModelViewSet,
+    EventWinnerModelViewSet,
     EventModelViewSet,
     EventListView,
     EventDetailView,

@@ -10,6 +10,7 @@ router.register(r"alumni-work", views.AlumniWorkModelViewSet)
 router.register(r"event-photos", views.EventPhotoModelViewSet)
 router.register(r"event-videos", views.EventVideoModelViewSet)
 router.register(r"event-model", views.EventModelViewSet)
+router.register(r"event-winner", views.EventWinnerModelViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),

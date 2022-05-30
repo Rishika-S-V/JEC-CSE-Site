@@ -9,3 +9,6 @@ class Student(models.Model):
     name = models.CharField(max_length=128)
     dob: date = models.DateField()
     batch = models.PositiveIntegerField()
+
+    def __str__(self) -> str:
+        return self.roll_no

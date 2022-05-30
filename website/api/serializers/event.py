@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from ..models import Event, EventPhoto, EventVideo
+from ..models import Event, EventPhoto, EventVideo, EventWinner
 
 
 class EventSerializer(serializers.ModelSerializer):
@@ -39,3 +39,9 @@ class EventVideoSerializer(serializers.ModelSerializer):
         if fname.name.split(".")[-1] not in ["mp4"]:
             raise serializers.ValidationError("only videos are allowed")
         return fname
+
+
+class EventWinnerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = EventWinner
+        fields = "__all__"
