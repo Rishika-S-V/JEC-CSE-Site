@@ -34,7 +34,7 @@ class EventWinner(models.Model):
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
     position = models.PositiveIntegerField()
     photo = models.FileField(
-        upload_to="event/winners", max_length=1024, null=True, blank=True
+        upload_to="events/winners", max_length=1024, null=True, blank=True
     )
     students = models.ManyToManyField(Student, related_name="events_won")
 
