@@ -11,6 +11,7 @@ class Staff(models.Model):
     date_of_joining: date = models.DateField()
     designation = models.CharField(max_length=64)
     bio_data = models.FileField(upload_to="staff_bio_data", null=True)
+    mail_id = models.CharField(max_length=1024, null=True)
 
     def __str__(self) -> str:
         return self.staff_no

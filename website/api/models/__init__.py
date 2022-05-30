@@ -3,3 +3,4 @@ from .staff import Staff
 from .alumni import Alumni, AlumniWork
 from .event import Event, EventPhoto, EventVideo, EventWinner
 from .infrastructure import Infrastructure, InfrastructureImage
+from .academic_council import AcademicCouncil, AcademicCouncilMeeting

@@ -8,3 +8,7 @@ from .event import (
     EventWinnerSerializer,
 )
 from .infrastructure import InfrastructureSerializer, InfrastructureImageSerializer
+from .academic_council import (
+    AcademicCouncilSerializer,
+    AcademicCouncilMeetingSerializer,
+)

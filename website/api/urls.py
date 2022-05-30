@@ -13,6 +13,8 @@ router.register(r"event-model", views.EventModelViewSet)
 router.register(r"event-winner", views.EventWinnerModelViewSet)
 router.register(r"infrastructure-model", views.InfrastructureModelViewSet)
 router.register(r"infrastructure-images", views.InfrastructureImagesModelViewSet)
+router.register(r"academic-council", views.AcademicCouncilViewSet)
+router.register(r"academic-council-meeting", views.AcademicCouncilMeetingViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),
