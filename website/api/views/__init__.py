@@ -17,3 +17,9 @@ from .event import (
     EventPhotosMultivaluedView,
     EventVideosMultivaluedView,
 )
+from .infrastructure import (
+    InfrastructureModelViewSet,
+    InfrastructureImagesModelViewSet,
+    InfrastructureListView,
+    InfrastructureDetailView,
+)

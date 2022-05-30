@@ -7,3 +7,4 @@ from .event import (
     EventVideoSerializer,
     EventWinnerSerializer,
 )
+from .infrastructure import InfrastructureSerializer, InfrastructureImageSerializer
