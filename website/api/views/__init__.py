@@ -24,3 +24,4 @@ from .infrastructure import (
     InfrastructureDetailView,
 )
 from .academic_council import AcademicCouncilViewSet, AcademicCouncilMeetingViewSet
+from .student_achievement import StudentAchievementModelViewSet

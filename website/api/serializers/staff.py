@@ -23,6 +23,11 @@ class StaffSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError("only pdf is allowed")
         return fname
 
+    def validate_photo(self, fname):
+        if fname.name.split(".")[-1] not in ["jpg", "jpeg", "png", "svg"]:
+            raise serializers.ValidationError("only images are allowed")
+        return fname
+
 
 class StaffAchievementSerializer(serializers.ModelSerializer):
     class Meta:

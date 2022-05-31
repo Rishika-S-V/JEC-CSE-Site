@@ -17,3 +17,8 @@ class StudentSerializer(serializers.ModelSerializer):
 
     def get_year_(self, instance: Student):
         return 4 - (instance.batch - timezone.now().year)
+
+    def validate_photo(self, fname):
+        if fname.name.split(".")[-1] not in ["jpg", "jpeg", "png", "svg"]:
+            raise serializers.ValidationError("only images are allowed")
+        return fname

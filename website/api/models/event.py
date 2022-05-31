@@ -31,7 +31,7 @@ class EventVideo(models.Model):
 
 
 class EventWinner(models.Model):
-    event = models.ForeignKey(Event, on_delete=models.CASCADE)
+    event = models.ForeignKey(Event, on_delete=models.CASCADE, related_name="winners")
     position = models.PositiveIntegerField()
     photo = models.FileField(
         upload_to="events/winners", max_length=1024, null=True, blank=True

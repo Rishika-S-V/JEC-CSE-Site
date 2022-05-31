@@ -11,6 +11,7 @@ class Staff(models.Model):
     date_of_experience: date = models.DateField()
     date_of_joining: date = models.DateField()
     designation = models.CharField(max_length=64)
+    photo = models.FileField(upload_to="staff/photos", null=True)
     bio_data = models.FileField(upload_to="staff/bio_data", null=True)
     mail_id = models.CharField(max_length=1024, null=True)
 
@@ -45,7 +46,9 @@ class StaffAchievement(models.Model):
         (10, COURSES),
     )
 
-    staff = models.ForeignKey(Staff, on_delete=models.CASCADE)
+    staff = models.ForeignKey(
+        Staff, on_delete=models.CASCADE, related_name="achievements"
+    )
     title = models.CharField(max_length=128)
     description = models.TextField()
     _date: date = models.DateField(null=True)

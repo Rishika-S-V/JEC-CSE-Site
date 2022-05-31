@@ -45,3 +45,8 @@ class EventWinnerSerializer(serializers.ModelSerializer):
     class Meta:
         model = EventWinner
         fields = "__all__"
+
+    def validate_photo(self, fname):
+        if fname.name.split(".")[-1] not in ["jpg", "jpeg", "png", "svg"]:
+            raise serializers.ValidationError("only images are allowed")
+        return fname

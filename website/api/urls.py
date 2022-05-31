@@ -5,6 +5,7 @@ from . import views
 
 router = routers.DefaultRouter()
 router.register(r"students", views.StudentModelViewSet)
+router.register(r"students-achievements", views.StudentAchievementModelViewSet)
 router.register(r"staffs", views.StaffModelViewSet)
 router.register(r"staffs-achievements", views.StaffAchievementModelViewSet)
 router.register(r"alumni-work", views.AlumniWorkModelViewSet)
