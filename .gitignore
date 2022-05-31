@@ -4,3 +4,21 @@ env/
 **/migrations
 *.sqlite3
 website/media/
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+website/frontend/node_modules
+
+# testing
+website/frontend/coverage
+
+# production
+website/frontend/build
+
+# misc
+website/frontend/.DS_Store
+website/frontend/.env
+website/frontend/npm-debug.log*
+website/frontend/yarn-debug.log*
+website/frontend/yarn-error.log*
