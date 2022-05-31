@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from django.utils import timezone
 
-from ..models import Staff
+from ..models import Staff, StaffAchievement
 
 
 class StaffSerializer(serializers.ModelSerializer):
@@ -22,3 +22,9 @@ class StaffSerializer(serializers.ModelSerializer):
         if fname.name.split(".")[-1] not in ["pdf"]:
             raise serializers.ValidationError("only pdf is allowed")
         return fname
+
+
+class StaffAchievementSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = StaffAchievement
+        fields = "__all__"

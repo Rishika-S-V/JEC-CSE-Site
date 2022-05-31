@@ -1,5 +1,8 @@
 from .student import StudentSerializer
-from .staff import StaffSerializer
+from .staff import (
+    StaffSerializer,
+    StaffAchievementSerializer,
+)
 from .alumni import AlumniModelSerializer, AlumniWorkModelSerializer
 from .event import (
     EventSerializer,

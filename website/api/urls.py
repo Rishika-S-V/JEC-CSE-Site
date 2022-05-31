@@ -6,6 +6,7 @@ from . import views
 router = routers.DefaultRouter()
 router.register(r"students", views.StudentModelViewSet)
 router.register(r"staffs", views.StaffModelViewSet)
+router.register(r"staffs-achievements", views.StaffAchievementModelViewSet)
 router.register(r"alumni-work", views.AlumniWorkModelViewSet)
 router.register(r"event-photos", views.EventPhotoModelViewSet)
 router.register(r"event-videos", views.EventVideoModelViewSet)
