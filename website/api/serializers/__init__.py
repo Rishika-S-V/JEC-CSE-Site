@@ -16,3 +16,4 @@ from .academic_council import (
     AcademicCouncilMeetingSerializer,
 )
 from .student_achievement import StudentAchievementSerializer
+from .project import ProjectSerializer

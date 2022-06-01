@@ -25,3 +25,4 @@ from .infrastructure import (
 )
 from .academic_council import AcademicCouncilViewSet, AcademicCouncilMeetingViewSet
 from .student_achievement import StudentAchievementModelViewSet
+from .project import ProjectModelViewSet
