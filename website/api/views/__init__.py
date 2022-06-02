@@ -20,8 +20,6 @@ from .event import (
 from .infrastructure import (
     InfrastructureModelViewSet,
     InfrastructureImagesModelViewSet,
-    InfrastructureListView,
-    InfrastructureDetailView,
 )
 from .academic_council import AcademicCouncilViewSet, AcademicCouncilMeetingViewSet
 from .student_achievement import StudentAchievementModelViewSet
