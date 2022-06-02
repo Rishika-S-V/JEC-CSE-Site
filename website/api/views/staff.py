@@ -27,8 +27,3 @@ class StaffModelViewSet(viewsets.ModelViewSet):
 class StaffAchievementModelViewSet(viewsets.ModelViewSet):
     queryset = StaffAchievement.objects.all()
     serializer_class = StaffAchievementSerializer
-
-
-class StaffDetailView(views.APIView):
-    def get(self, request: Request, id: int, *args, **kwargs):
-        return Response("Under Development")

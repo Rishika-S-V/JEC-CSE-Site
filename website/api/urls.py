@@ -13,7 +13,7 @@ router.register(r"event-photos", views.EventPhotoModelViewSet)
 router.register(r"event-videos", views.EventVideoModelViewSet)
 router.register(r"event-model", views.EventModelViewSet)
 router.register(r"event-winner", views.EventWinnerModelViewSet)
-router.register(r"infrastructure-model", views.InfrastructureModelViewSet)
+router.register(r"infrastructure", views.InfrastructureModelViewSet)
 router.register(r"infrastructure-images", views.InfrastructureImagesModelViewSet)
 router.register(r"academic-council", views.AcademicCouncilViewSet)
 router.register(r"academic-council-meeting", views.AcademicCouncilMeetingViewSet)
@@ -33,6 +33,4 @@ urlpatterns = [
     path(
         "event-videos/multivalued/<int:id>", views.EventVideosMultivaluedView.as_view()
     ),
-    path("infrastructure/", views.InfrastructureListView.as_view()),
-    path("infrastructure/<int:id>", views.InfrastructureDetailView.as_view()),
 ]

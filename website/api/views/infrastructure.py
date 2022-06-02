@@ -10,17 +10,7 @@ class InfrastructureModelViewSet(viewsets.ModelViewSet):
     queryset = Infrastructure.objects.all()
     serializer_class = InfrastructureSerializer
 
-
-class InfrastructureImagesModelViewSet(viewsets.ModelViewSet):
-    queryset = InfrastructureImage.objects.all()
-    serializer_class = InfrastructureImageSerializer
-
-
-class InfrastructureListView(views.APIView):
-    queryset = Infrastructure.objects.all()
-    serializer_class = InfrastructureSerializer
-
-    def get(self, request: Request, *args, **kwargs):
+    def list(self, request, *args, **kwargs):
         res = [
             InfrastructureSerializer(instance).data
             for instance in Infrastructure.objects.all()
@@ -36,17 +26,17 @@ class InfrastructureListView(views.APIView):
             ]
         return Response(res)
 
-
-class InfrastructureDetailView(views.APIView):
-    queryset = Infrastructure.objects.all()
-    serializer_class = InfrastructureSerializer
-
-    def get(self, request: Request, id: int, *args, **kwargs):
-        res = InfrastructureSerializer(Infrastructure.objects.get(id=id)).data
+    def retrieve(self, request, pk: int, *args, **kwargs):
+        res = InfrastructureSerializer(Infrastructure.objects.get(id=pk)).data
         res["images"] = [
             InfrastructureImageSerializer(
                 instance, context={"request": request}
             ).data.get("path")
-            for instance in InfrastructureImage.objects.filter(infrastructure=id)
+            for instance in InfrastructureImage.objects.filter(infrastructure=pk)
         ]
         return Response(res)
+
+
+class InfrastructureImagesModelViewSet(viewsets.ModelViewSet):
+    queryset = InfrastructureImage.objects.all()
+    serializer_class = InfrastructureImageSerializer

@@ -51,7 +51,7 @@ class StaffAchievement(models.Model):
     )
     title = models.CharField(max_length=128)
     description = models.TextField()
-    _date: date = models.DateField(null=True)
+    date: date = models.DateField(null=True)
     file = models.FileField(upload_to="staff/achievements", null=True)
     category = models.IntegerField(choices=CATEGORIES, null=True)
 
