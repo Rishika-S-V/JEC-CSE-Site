@@ -40,3 +40,10 @@ class InfrastructureModelViewSet(viewsets.ModelViewSet):
 class InfrastructureImagesModelViewSet(viewsets.ModelViewSet):
     queryset = InfrastructureImage.objects.all()
     serializer_class = InfrastructureImageSerializer
+
+    def retrieve(self, request, pk: int, *args, **kwargs):
+        res = [
+            InfrastructureImageSerializer(instance).data.get("path")
+            for instance in InfrastructureImage.objects.filter(infrastructure=pk)
+        ]
+        return Response(res)
