@@ -289,13 +289,18 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-05-28T14:40:48.538Z",
-    "modified": "2022-06-01T10:14:36.295Z",
+    "modified": "2022-06-02T03:21:29.796Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
       "raw": "{\n    \"roll_no\":\"110820104032\",\n    \"name\": \"Naveen G\",\n    \"dob\": \"2003-02-24\",\n    \"batch\":2024\n}",
       "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -308,13 +313,18 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-05-28T14:50:24.738Z",
-    "modified": "2022-06-01T10:14:38.366Z",
+    "modified": "2022-06-02T03:22:01.521Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
       "raw": "{\n    \"roll_no\":\"110820104039\",\n    \"name\": \"Rishika SV\",\n    \"dob\": \"2003-05-15\",\n    \"batch\":2024\n}",
       "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -327,13 +337,18 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-05-28T14:50:27.257Z",
-    "modified": "2022-06-01T10:14:39.958Z",
+    "modified": "2022-06-02T03:22:23.658Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
       "raw": "{\n    \"roll_no\":\"110820104023\",\n    \"name\": \"Krishna Prasad S\",\n    \"dob\": \"2002-08-18\",\n    \"batch\":2024\n}",
       "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -346,13 +361,18 @@
     "method": "POST",
     "sortNum": 40000,
     "created": "2022-05-28T14:54:47.782Z",
-    "modified": "2022-06-01T10:15:02.710Z",
+    "modified": "2022-06-02T03:22:50.341Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
       "raw": "{\n    \"roll_no\":\"110820104304\",\n    \"name\": \"Moorthi D\",\n    \"dob\": \"2002-07-09\",\n    \"batch\":2024\n}",
       "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -365,7 +385,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-05-28T14:59:23.461Z",
-    "modified": "2022-06-01T05:27:23.351Z",
+    "modified": "2022-06-02T03:25:08.184Z",
     "headers": [],
     "params": [],
     "body": {
@@ -404,6 +424,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -415,7 +440,7 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-05-28T15:18:20.627Z",
-    "modified": "2022-06-01T05:27:27.034Z",
+    "modified": "2022-06-02T03:25:35.563Z",
     "headers": [],
     "params": [],
     "body": {
@@ -454,6 +479,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -465,7 +495,7 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-05-28T15:19:21.611Z",
-    "modified": "2022-06-01T05:27:28.686Z",
+    "modified": "2022-06-02T03:26:03.008Z",
     "headers": [],
     "params": [],
     "body": {
@@ -504,6 +534,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -515,7 +550,7 @@
     "method": "POST",
     "sortNum": 40000,
     "created": "2022-05-28T15:20:14.467Z",
-    "modified": "2022-06-01T05:27:30.057Z",
+    "modified": "2022-06-02T03:26:36.045Z",
     "headers": [],
     "params": [],
     "body": {
@@ -554,6 +589,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -565,13 +605,18 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-05-28T16:32:41.279Z",
-    "modified": "2022-05-28T16:35:11.359Z",
+    "modified": "2022-06-02T04:58:25.296Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
       "raw": "{\n  \"works\": [\n    {\n      \"company\": \"COMPANY1\",\n      \"position\": \"Fullstack\",\n      \"duration\": \"2015 - Present\",\n      \"is_current\": true\n    },\n    {\n      \"company\": \"COMPANY1\",\n      \"position\": \"UI/UX\",\n      \"duration\": \"2010 - 2015\",\n      \"is_current\": false\n    }\n  ],\n  \"student\": 1\n}",
       "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -584,13 +629,18 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-05-28T16:35:44.297Z",
-    "modified": "2022-05-28T16:36:55.308Z",
+    "modified": "2022-06-02T04:59:01.624Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
       "raw": "{\n  \"works\": [\n    {\n      \"company\": \"COMPANY1\",\n      \"position\": \"frontend\",\n      \"duration\": \"2015 - Present\",\n      \"is_current\": true\n    },\n    {\n      \"company\": \"COMPANY1\",\n      \"position\": \"UI/UX\",\n      \"duration\": \"2010 - 2015\",\n      \"is_current\": false\n    }\n  ],\n  \"student\": 2\n}",
       "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -631,9 +681,14 @@
     "method": "GET",
     "sortNum": 20000,
     "created": "2022-05-29T00:03:06.096Z",
-    "modified": "2022-05-29T01:22:30.722Z",
+    "modified": "2022-06-02T09:52:55.248Z",
     "headers": [],
     "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -703,7 +758,7 @@
     "method": "POST",
     "sortNum": 70000,
     "created": "2022-05-29T01:49:33.664Z",
-    "modified": "2022-05-29T05:44:17.326Z",
+    "modified": "2022-06-02T04:59:56.919Z",
     "headers": [],
     "params": [],
     "body": {
@@ -736,6 +791,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -747,7 +807,7 @@
     "method": "POST",
     "sortNum": 80000,
     "created": "2022-05-29T01:50:50.968Z",
-    "modified": "2022-05-29T01:59:13.310Z",
+    "modified": "2022-06-02T05:00:23.030Z",
     "headers": [],
     "params": [],
     "body": {
@@ -766,6 +826,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -777,7 +842,7 @@
     "method": "POST",
     "sortNum": 90000,
     "created": "2022-05-29T01:58:51.822Z",
-    "modified": "2022-05-29T01:58:51.822Z",
+    "modified": "2022-06-02T05:00:50.997Z",
     "headers": [],
     "params": [],
     "body": {
@@ -796,6 +861,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -807,7 +877,7 @@
     "method": "POST",
     "sortNum": 70000,
     "created": "2022-05-29T01:59:45.852Z",
-    "modified": "2022-05-29T05:49:43.194Z",
+    "modified": "2022-06-02T05:02:59.058Z",
     "headers": [],
     "params": [],
     "body": {
@@ -840,6 +910,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -851,7 +926,7 @@
     "method": "POST",
     "sortNum": 80000,
     "created": "2022-05-29T01:59:45.853Z",
-    "modified": "2022-05-29T02:00:21.700Z",
+    "modified": "2022-06-02T05:03:21.042Z",
     "headers": [],
     "params": [],
     "body": {
@@ -870,6 +945,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -881,7 +961,7 @@
     "method": "POST",
     "sortNum": 90000,
     "created": "2022-05-29T01:59:45.854Z",
-    "modified": "2022-05-29T02:00:27.785Z",
+    "modified": "2022-06-02T05:03:46.517Z",
     "headers": [],
     "params": [],
     "body": {
@@ -899,6 +979,11 @@
           "value": "../../../../../../home/naveen/Downloads/christian-wiediger-kf_korybd1g-unsplash.jpg"
         }
       ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -950,7 +1035,7 @@
     "method": "POST",
     "sortNum": 100000,
     "created": "2022-05-29T03:18:28.066Z",
-    "modified": "2022-05-29T03:19:47.597Z",
+    "modified": "2022-06-02T05:01:11.278Z",
     "headers": [],
     "params": [],
     "body": {
@@ -968,6 +1053,11 @@
           "value": "../../../../../../home/naveen/Downloads/pexels-ivan-khmelyuk-7222009.mp4"
         }
       ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -980,7 +1070,7 @@
     "method": "POST",
     "sortNum": 110000,
     "created": "2022-05-29T03:19:23.071Z",
-    "modified": "2022-05-29T03:19:23.071Z",
+    "modified": "2022-06-02T05:01:36.671Z",
     "headers": [],
     "params": [],
     "body": {
@@ -999,6 +1089,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1010,7 +1105,7 @@
     "method": "POST",
     "sortNum": 100000,
     "created": "2022-05-29T03:20:28.364Z",
-    "modified": "2022-05-29T03:20:45.193Z",
+    "modified": "2022-06-02T05:04:03.411Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1029,6 +1124,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1040,7 +1140,7 @@
     "method": "POST",
     "sortNum": 110000,
     "created": "2022-05-29T03:20:50.467Z",
-    "modified": "2022-05-29T03:21:13.670Z",
+    "modified": "2022-06-02T05:04:27.089Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1058,6 +1158,11 @@
           "value": "../../../../../../home/naveen/Downloads/production ID_4292567.mp4"
         }
       ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -1151,7 +1256,7 @@
     "method": "POST",
     "sortNum": 120000,
     "created": "2022-05-30T00:12:47.699Z",
-    "modified": "2022-05-30T00:16:08.690Z",
+    "modified": "2022-06-02T05:01:59.989Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1182,6 +1287,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1193,7 +1303,7 @@
     "method": "POST",
     "sortNum": 120000,
     "created": "2022-05-30T00:16:34.137Z",
-    "modified": "2022-05-30T00:20:22.118Z",
+    "modified": "2022-06-02T05:04:48.489Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1224,6 +1334,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1235,7 +1350,7 @@
     "method": "POST",
     "sortNum": 130000,
     "created": "2022-05-30T00:20:31.117Z",
-    "modified": "2022-05-30T00:21:01.355Z",
+    "modified": "2022-06-02T05:02:27.273Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1266,6 +1381,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1277,7 +1397,7 @@
     "method": "POST",
     "sortNum": 130000,
     "created": "2022-05-30T00:21:17.116Z",
-    "modified": "2022-05-30T00:21:42.606Z",
+    "modified": "2022-06-02T05:05:11.101Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1309,6 +1429,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1320,9 +1445,14 @@
     "method": "GET",
     "sortNum": 10000,
     "created": "2022-05-30T00:50:14.491Z",
-    "modified": "2022-05-30T00:50:29.923Z",
+    "modified": "2022-06-02T01:02:55.873Z",
     "headers": [],
     "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1406,7 +1536,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-05-30T06:50:14.624Z",
-    "modified": "2022-06-01T23:42:37.641Z",
+    "modified": "2022-06-02T05:05:38.629Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1423,6 +1553,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1434,7 +1569,7 @@
     "method": "POST",
     "sortNum": 2500,
     "created": "2022-05-30T06:52:52.540Z",
-    "modified": "2022-06-01T23:42:59.165Z",
+    "modified": "2022-06-02T05:07:17.878Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1451,6 +1586,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1462,7 +1602,7 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-05-30T07:05:27.255Z",
-    "modified": "2022-05-30T08:26:41.629Z",
+    "modified": "2022-06-02T05:06:06.225Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1481,6 +1621,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1492,7 +1637,7 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-05-30T07:05:56.114Z",
-    "modified": "2022-05-30T08:24:12.618Z",
+    "modified": "2022-06-02T05:06:48.457Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1511,6 +1656,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1522,7 +1672,7 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-05-30T07:07:31.091Z",
-    "modified": "2022-05-30T07:07:33.364Z",
+    "modified": "2022-06-02T05:07:42.986Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1541,6 +1691,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1552,7 +1707,7 @@
     "method": "POST",
     "sortNum": 7500,
     "created": "2022-05-30T07:08:19.748Z",
-    "modified": "2022-05-30T07:08:19.748Z",
+    "modified": "2022-06-02T05:08:03.690Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1570,6 +1725,11 @@
           "value": "../../../../../../home/naveen/Downloads/axville-qq-brBsFU7w-unsplash.jpg"
         }
       ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -1648,7 +1808,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-05-30T07:31:45.839Z",
-    "modified": "2022-05-30T14:04:44.039Z",
+    "modified": "2022-06-02T05:09:32.195Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1664,6 +1824,11 @@
           "value": "1"
         }
       ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -1676,7 +1841,7 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-05-30T07:32:11.700Z",
-    "modified": "2022-05-30T14:04:54.290Z",
+    "modified": "2022-06-02T05:09:50.939Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1692,6 +1857,11 @@
           "value": "2"
         }
       ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -1704,7 +1874,7 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-05-30T07:32:15.388Z",
-    "modified": "2022-05-30T14:05:04.436Z",
+    "modified": "2022-06-02T05:10:10.739Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1721,6 +1891,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1732,7 +1907,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-05-30T07:34:02.722Z",
-    "modified": "2022-05-30T07:34:06.265Z",
+    "modified": "2022-06-02T05:10:44.854Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1758,6 +1933,11 @@
           "value": "../../../../../../home/naveen/Downloads/Documents/bonafide.pdf"
         }
       ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -1770,7 +1950,7 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-05-30T07:34:26.879Z",
-    "modified": "2022-05-30T07:34:26.879Z",
+    "modified": "2022-06-02T05:11:04.641Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1796,6 +1976,11 @@
           "value": "../../../../../../home/naveen/Downloads/Documents/bonafide.pdf"
         }
       ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -1808,7 +1993,7 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-05-30T07:34:29.561Z",
-    "modified": "2022-05-30T07:34:29.561Z",
+    "modified": "2022-06-02T05:11:30.738Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1835,6 +2020,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1846,7 +2036,7 @@
     "method": "POST",
     "sortNum": 140000,
     "created": "2022-06-01T05:28:05.434Z",
-    "modified": "2022-06-01T07:00:39.322Z",
+    "modified": "2022-06-02T04:51:48.673Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1874,6 +2064,11 @@
           "value": "1"
         }
       ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -1886,7 +2081,7 @@
     "method": "POST",
     "sortNum": 150000,
     "created": "2022-06-01T07:00:48.747Z",
-    "modified": "2022-06-01T07:04:44.209Z",
+    "modified": "2022-06-02T04:52:17.496Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1915,6 +2110,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1926,7 +2126,7 @@
     "method": "POST",
     "sortNum": 160000,
     "created": "2022-06-01T07:00:56.481Z",
-    "modified": "2022-06-01T07:05:00.034Z",
+    "modified": "2022-06-02T04:52:43.525Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1955,6 +2155,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -1966,7 +2171,7 @@
     "method": "POST",
     "sortNum": 170000,
     "created": "2022-06-01T07:01:00.256Z",
-    "modified": "2022-06-01T07:05:12.073Z",
+    "modified": "2022-06-02T04:54:03.382Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1995,6 +2200,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2006,7 +2216,7 @@
     "method": "POST",
     "sortNum": 180000,
     "created": "2022-06-01T07:01:04.473Z",
-    "modified": "2022-06-01T07:06:44.449Z",
+    "modified": "2022-06-02T04:55:32.461Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2035,6 +2245,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2046,7 +2261,7 @@
     "method": "POST",
     "sortNum": 190000,
     "created": "2022-06-01T07:01:11.836Z",
-    "modified": "2022-06-01T07:07:06.813Z",
+    "modified": "2022-06-02T04:55:51.666Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2075,6 +2290,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2086,7 +2306,7 @@
     "method": "POST",
     "sortNum": 200000,
     "created": "2022-06-01T07:01:19.561Z",
-    "modified": "2022-06-01T07:07:25.460Z",
+    "modified": "2022-06-02T04:56:21.842Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2115,6 +2335,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2126,7 +2351,7 @@
     "method": "POST",
     "sortNum": 210000,
     "created": "2022-06-01T07:01:23.247Z",
-    "modified": "2022-06-01T07:07:52.024Z",
+    "modified": "2022-06-02T04:56:50.010Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2155,6 +2380,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2166,7 +2396,7 @@
     "method": "POST",
     "sortNum": 220000,
     "created": "2022-06-01T07:01:33.526Z",
-    "modified": "2022-06-01T07:08:05.637Z",
+    "modified": "2022-06-02T04:58:00.201Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2195,6 +2425,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2206,7 +2441,7 @@
     "method": "POST",
     "sortNum": 150000,
     "created": "2022-06-01T09:59:05.986Z",
-    "modified": "2022-06-01T10:02:57.457Z",
+    "modified": "2022-06-02T05:11:59.350Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2233,8 +2468,12 @@
           "name": "students",
           "value": "3"
         }
-      ],
-      "files": []
+      ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -2247,7 +2486,7 @@
     "method": "POST",
     "sortNum": 160000,
     "created": "2022-06-01T10:03:27.367Z",
-    "modified": "2022-06-01T10:03:51.435Z",
+    "modified": "2022-06-02T05:12:26.816Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2280,6 +2519,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2291,7 +2535,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-06-01T23:04:43.266Z",
-    "modified": "2022-06-01T23:11:25.447Z",
+    "modified": "2022-06-02T03:23:15.425Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2322,8 +2566,12 @@
           "name": "student",
           "value": "4"
         }
-      ],
-      "files": []
+      ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   },
@@ -2336,7 +2584,7 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-06-01T23:10:10.048Z",
-    "modified": "2022-06-01T23:11:53.270Z",
+    "modified": "2022-06-02T03:23:44.366Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2361,6 +2609,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2372,7 +2625,7 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-06-01T23:10:22.747Z",
-    "modified": "2022-06-01T23:13:50.619Z",
+    "modified": "2022-06-02T03:24:15.490Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2393,6 +2646,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2404,7 +2662,7 @@
     "method": "POST",
     "sortNum": 40000,
     "created": "2022-06-01T23:10:25.475Z",
-    "modified": "2022-06-01T23:18:11.353Z",
+    "modified": "2022-06-02T03:24:38.204Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2433,6 +2691,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2444,7 +2707,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-06-01T23:43:15.713Z",
-    "modified": "2022-06-01T23:44:09.704Z",
+    "modified": "2022-06-02T05:08:27.399Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2461,6 +2724,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2472,7 +2740,7 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-06-01T23:43:15.714Z",
-    "modified": "2022-06-01T23:44:15.982Z",
+    "modified": "2022-06-02T05:08:51.139Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2491,6 +2759,11 @@
         }
       ]
     },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
     "tests": []
   },
   {
@@ -2502,7 +2775,7 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-06-01T23:43:15.715Z",
-    "modified": "2022-06-01T23:44:21.006Z",
+    "modified": "2022-06-02T05:09:11.193Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2520,6 +2793,372 @@
           "value": "../../../../../../home/naveen/Downloads/filippo-martini-edWYPlHbv_w-unsplash.jpg"
         }
       ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "5e39e738-d877-4feb-8344-650bc1150689",
+    "colId": "f5d3c3cc-1722-4a38-975e-21790a16de5b",
+    "containerId": "",
+    "name": "list",
+    "url": "localhost:8000/api/students",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-06-02T00:43:51.763Z",
+    "modified": "2022-06-02T00:58:07.273Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "465204c0de2eae15fe314fd833abd1ab3b8d3fb5",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "08ad5225-9076-4030-986e-29c96958fb98",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "30456ea3-0cd8-40c9-a221-965a60096dce",
+    "name": "List",
+    "url": "localhost:8000/api/students/1",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-06-02T06:36:09.938Z",
+    "modified": "2022-06-02T06:36:56.143Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "a5fa0ee0-5a3e-407c-aaf5-5a65488a5970",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "30456ea3-0cd8-40c9-a221-965a60096dce",
+    "name": "Detail",
+    "url": "localhost:8000/api/students",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-06-02T06:36:48.091Z",
+    "modified": "2022-06-02T06:36:48.091Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "ac18cbb4-26c9-4d61-8b05-5fc9730fa81c",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "30456ea3-0cd8-40c9-a221-965a60096dce",
+    "name": "Achievement List",
+    "url": "localhost:8000/api/students-achievements",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-06-02T06:38:26.011Z",
+    "modified": "2022-06-02T06:39:04.062Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "2928eeb6-3444-4d0f-b854-2b8f0d32afc0",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "30456ea3-0cd8-40c9-a221-965a60096dce",
+    "name": "Achievement Detail",
+    "url": "localhost:8000/api/students-achievements/1",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-06-02T06:39:09.002Z",
+    "modified": "2022-06-02T06:39:21.556Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "c1671e85-f519-49e9-a760-e4a25e5a5861",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "0d31b73a-9e89-4451-931f-78ad18e61b83",
+    "name": "List",
+    "url": "localhost:8000/api/alumni",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-06-02T06:55:20.275Z",
+    "modified": "2022-06-02T06:56:31.161Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "f85b8cd5-087b-4fc3-b36b-ab6221528d36",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "0d31b73a-9e89-4451-931f-78ad18e61b83",
+    "name": "Detail",
+    "url": "localhost:8000/api/alumni/1",
+    "method": "GET",
+    "sortNum": 60000,
+    "created": "2022-06-02T06:56:44.490Z",
+    "modified": "2022-06-02T07:18:19.315Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "83079be8-6aef-48da-8a6a-8554762331b0",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "de653226-c778-41ef-af90-76a6caadc441",
+    "name": "List",
+    "url": "localhost:8000/api/staffs/1",
+    "method": "GET",
+    "sortNum": 60000,
+    "created": "2022-06-02T07:11:07.942Z",
+    "modified": "2022-06-02T07:18:46.266Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "4b37f35d-13c5-45f0-997e-46e3e813d57b",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "30456ea3-0cd8-40c9-a221-965a60096dce",
+    "name": "Batch",
+    "url": "localhost:8000/api/students/batch/2024",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-06-02T07:12:04.893Z",
+    "modified": "2022-06-02T07:12:26.782Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "346a382c-4bb5-4ee4-a4df-2f0e9aa219ed",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "de653226-c778-41ef-af90-76a6caadc441",
+    "name": "Detail",
+    "url": "localhost:8000/api/staffs",
+    "method": "GET",
+    "sortNum": 70000,
+    "created": "2022-06-02T07:18:36.240Z",
+    "modified": "2022-06-02T07:18:36.240Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "7b283e69-d636-465f-b367-f4c13f2a555e",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "17f3e8fc-0a74-487f-a6f7-b2131009cb9b",
+    "name": "List",
+    "url": "localhost:8000/api/infrastructure",
+    "method": "GET",
+    "sortNum": 70000,
+    "created": "2022-06-02T07:19:23.310Z",
+    "modified": "2022-06-02T07:19:47.031Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "c866ac40-2301-4462-b1e4-85e7208641ea",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "17f3e8fc-0a74-487f-a6f7-b2131009cb9b",
+    "name": "Detail",
+    "url": "localhost:8000/api/infrastructure/1",
+    "method": "GET",
+    "sortNum": 80000,
+    "created": "2022-06-02T07:19:55.037Z",
+    "modified": "2022-06-02T07:20:04.593Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "dfbbbb51-662c-4199-9092-61d8c74e77c5",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "0d31b73a-9e89-4451-931f-78ad18e61b83",
+    "name": "Multivalued",
+    "url": "localhost:8000/api/alumni-work/multivalued/1",
+    "method": "GET",
+    "sortNum": 80000,
+    "created": "2022-06-02T07:22:47.513Z",
+    "modified": "2022-06-02T07:23:39.193Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "b4eb0990-0b28-485b-8588-3543077577ca",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "1ed60d86-42be-47c0-914d-f405ad33c89b",
+    "name": "List",
+    "url": "localhost:8000/api/projects",
+    "method": "GET",
+    "sortNum": 90000,
+    "created": "2022-06-02T08:17:49.123Z",
+    "modified": "2022-06-02T08:18:47.765Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "a982b2dc-1396-4751-96ec-3c6e5d07fbb7",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "1ed60d86-42be-47c0-914d-f405ad33c89b",
+    "name": "Detail",
+    "url": "localhost:8000/api/projects/1",
+    "method": "GET",
+    "sortNum": 100000,
+    "created": "2022-06-02T08:19:15.072Z",
+    "modified": "2022-06-02T08:19:50.823Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "6d3f9918-ae45-4648-b122-a1f7c6560cc8",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "2dd226ed-df0b-40cb-b80a-fb8499aa517b",
+    "name": "List",
+    "url": "localhost:8000/api/event",
+    "method": "GET",
+    "sortNum": 100000,
+    "created": "2022-06-02T08:21:04.047Z",
+    "modified": "2022-06-02T09:53:09.670Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "333d2d36-00e3-4c72-a69a-00855ec79434",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "2dd226ed-df0b-40cb-b80a-fb8499aa517b",
+    "name": "Detail",
+    "url": "localhost:8000/api/event/1",
+    "method": "GET",
+    "sortNum": 110000,
+    "created": "2022-06-02T09:42:39.578Z",
+    "modified": "2022-06-02T09:53:23.550Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "ef78cd49-d6d5-4984-a2fa-308d15f3607a",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "0076b38d-1ea0-4a81-b262-c2a49bacf0d2",
+    "name": "List",
+    "url": "localhost:8000/api/academic-council",
+    "method": "GET",
+    "sortNum": 110000,
+    "created": "2022-06-02T09:54:33.139Z",
+    "modified": "2022-06-02T09:56:11.805Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  },
+  {
+    "_id": "8e6e3309-596a-4bc6-b931-e657548177a1",
+    "colId": "c3c77daa-de36-4385-b5db-129191895e76",
+    "containerId": "0076b38d-1ea0-4a81-b262-c2a49bacf0d2",
+    "name": "Detail",
+    "url": "localhost:8000/api/academic-council/1",
+    "method": "GET",
+    "sortNum": 120000,
+    "created": "2022-06-02T09:54:41.445Z",
+    "modified": "2022-06-02T09:57:13.124Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}",
+      "bearerPrefix": "Token"
     },
     "tests": []
   }

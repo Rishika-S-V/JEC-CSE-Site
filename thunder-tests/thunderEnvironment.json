@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "_id": "68745b68-07c0-4fd5-ab6c-64288047e560",
+    "name": "JEC-Site",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-06-02T00:58:33.816Z",
+    "modified": "2022-06-02T03:18:12.689Z",
+    "data": [
+      {
+        "name": "token",
+        "value": "64ec19e9d68359d59e4db9887c46e216b1239e4c"
+      }
+    ]
+  }
+]

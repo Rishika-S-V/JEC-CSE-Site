@@ -579,5 +579,47 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "90df89eb-075b-4a11-8ead-670be4e5cae7",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/auth",
+    "url": "localhost:8000/auth",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-02T00:42:12.252Z",
+    "modified": "2022-06-02T00:42:12.426Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "85c81442-1099-4e70-ac95-1cd9a76730a2",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/auth/",
+    "url": "localhost:8000/auth/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-02T00:42:15.155Z",
+    "modified": "2022-06-02T03:17:56.336Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "username",
+          "value": "naveen"
+        },
+        {
+          "name": "password",
+          "value": "123"
+        }
+      ]
+    },
+    "tests": []
   }
 ]
