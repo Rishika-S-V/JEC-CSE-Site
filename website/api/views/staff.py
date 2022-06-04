@@ -2,8 +2,13 @@ from rest_framework import viewsets, views
 from rest_framework.response import Response
 from rest_framework.request import Request
 
-from ..models import Staff, StaffAchievement
-from ..serializers import StaffSerializer, StaffAchievementSerializer
+from ..models import Staff, StaffAchievement, Subject, Project
+from ..serializers import (
+    StaffSerializer,
+    StaffAchievementSerializer,
+    SubjectSerializer,
+    ProjectSerializer,
+)
 
 
 class StaffModelViewSet(viewsets.ModelViewSet):
@@ -21,6 +26,16 @@ class StaffModelViewSet(viewsets.ModelViewSet):
                 for instance in achievements
                 if instance.category == cat_id
             ]
+
+        res["subjects"] = [
+            SubjectSerializer(instance).data
+            for instance in Subject.objects.filter(pk__in=res["subjects"])
+        ]
+
+        res["projects_mentored"] = [
+            ProjectSerializer(instance).data
+            for instance in Project.objects.filter(mentor=pk)
+        ]
         return Response(res)
 
 

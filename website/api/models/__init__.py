@@ -1,4 +1,5 @@
 from .student import Student
+from .subject import Subject
 from .staff import Staff, StaffAchievement
 from .alumni import Alumni, AlumniWork
 from .event import Event, EventPhoto, EventVideo, EventWinner

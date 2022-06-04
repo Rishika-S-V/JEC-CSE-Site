@@ -1,7 +1,8 @@
-from sre_parse import CATEGORIES
 from django.db import models
 
 from datetime import date
+
+from ..models import Subject
 
 
 class Staff(models.Model):
@@ -14,6 +15,7 @@ class Staff(models.Model):
     photo = models.FileField(upload_to="staff/photos", null=True)
     bio_data = models.FileField(upload_to="staff/bio_data", null=True)
     mail_id = models.CharField(max_length=1024, null=True)
+    subjects = models.ManyToManyField(Subject, related_name="staffs_handled")
 
     def __str__(self) -> str:
         return self.staff_no
@@ -56,4 +58,4 @@ class StaffAchievement(models.Model):
     category = models.IntegerField(choices=CATEGORIES, null=True)
 
     def __str__(self) -> str:
-        return f"{self.staff.staff_no} ({CATEGORIES[self.category][1]}) -> {self.title}"
+        return f"{self.staff.staff_no} ({self.CATEGORIES[self.category][1]}) -> {self.title}"

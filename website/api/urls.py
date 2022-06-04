@@ -18,6 +18,7 @@ router.register(r"infrastructure-images", views.InfrastructureImagesModelViewSet
 router.register(r"academic-council", views.AcademicCouncilViewSet)
 router.register(r"academic-council-meeting", views.AcademicCouncilMeetingViewSet)
 router.register(r"projects", views.ProjectModelViewSet)
+router.register(r"subjects", views.SubjectModelViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),
