@@ -16,7 +16,7 @@ website/frontend/node_modules
 website/frontend/coverage
 
 # production
-website/frontend/build
+# website/frontend/build
 
 # misc
 website/frontend/.DS_Store
