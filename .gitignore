@@ -3,25 +3,25 @@ env/
 **/__pycache__
 **/migrations
 *.sqlite3
-website/media/
+./media/
 
 **/*.lock
 
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-website/frontend/node_modules
+frontend/node_modules
 staticfiles
 
 # testing
-website/frontend/coverage
+frontend/coverage
 
 # production
-# website/frontend/build
+# frontend/build
 
 # misc
-website/frontend/.DS_Store
-website/frontend/.env
-website/frontend/npm-debug.log*
-website/frontend/yarn-debug.log*
-website/frontend/yarn-error.log*
+frontend/.DS_Store
+frontend/.env
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*

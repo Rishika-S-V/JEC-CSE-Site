@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ffabd05b.css",
+    "main.js": "/static/js/main.c789a94a.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/alumini.png": "/static/media/alumini.a9982d22a31c0ae36372.png",
+    "static/media/club3.png": "/static/media/club3.24222316daf64a606fd7.png",
+    "static/media/club1.png": "/static/media/club1.f3aa787c05e34db3224b.png",
+    "static/media/club2.png": "/static/media/club2.64cfba2a70a05fee3ebf.png",
+    "static/media/Achievement.png": "/static/media/Achievement.68cef73a9ad9c19ad0ef.png",
+    "static/media/event.png": "/static/media/event.62f3cd6495061f41a22b.png",
+    "static/media/background.jpeg": "/static/media/background.79c56c188d02fdfe20eb.jpeg",
+    "static/media/gal6.png": "/static/media/gal6.2a08135a2262a31cefa9.png",
+    "static/media/gal5.png": "/static/media/gal5.f2eddffd39b0f8fae75c.png",
+    "static/media/footer.jpeg": "/static/media/footer.cedb424d255fe0252e1d.jpeg",
+    "static/media/3.png": "/static/media/3.316f034b5d2a9610a44a.png",
+    "static/media/gal4.png": "/static/media/gal4.04c08d2a48d81bc180c5.png",
+    "static/media/1.png": "/static/media/1.d8b221faa870079effcf.png",
+    "static/media/ach1.png": "/static/media/ach1.902b020837124cb82ba4.png",
+    "static/media/gal2.png": "/static/media/gal2.7381a993919b5b62938b.png",
+    "static/media/ach3.png": "/static/media/ach3.72f360916c076e91a685.png",
+    "static/media/gal1.png": "/static/media/gal1.ce0709b395b63c3a30d3.png",
+    "static/media/JEC_logo.png": "/static/media/JEC_logo.4f3a78cdf73345beb2f7.png",
+    "static/media/gal3.png": "/static/media/gal3.c7fec4bdc0fb4d871987.png",
+    "static/media/ach2.png": "/static/media/ach2.6c7f6f41953fcb3fb229.png",
+    "static/media/2.png": "/static/media/2.57d9b134cde770236850.png",
+    "static/media/IIC_logo.png": "/static/media/IIC_logo.d3147fe57f67124234d1.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.ffabd05b.css.map": "/static/css/main.ffabd05b.css.map",
+    "main.c789a94a.js.map": "/static/js/main.c789a94a.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffabd05b.css",
+    "static/js/main.c789a94a.js"
+  ]
+}
