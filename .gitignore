@@ -11,6 +11,7 @@ website/media/
 
 # dependencies
 website/frontend/node_modules
+staticfiles
 
 # testing
 website/frontend/coverage
