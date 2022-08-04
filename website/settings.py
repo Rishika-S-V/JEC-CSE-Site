@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-@i&wrigq40i^1)nhxm)q4b)ys1!@zg1@8t_9+a=ty!565y(5od
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["clg-site.herokuapp.com"]
+ALLOWED_HOSTS = ["clg-site.herokuapp.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -60,7 +60,7 @@ ROOT_URLCONF = "website.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, "frontend/build")],
+        "DIRS": [os.path.join(BASE_DIR, "templates")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
