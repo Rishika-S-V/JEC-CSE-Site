@@ -1,0 +1,43 @@
+
+#achieve-image{
+    border: rgb(245, 154, 81)  solid 10px;
+    background: url("../images/Achievement.png");
+    
+}
+
+#achieve-image:hover{
+  background: url(../images/ach2.png) 0px -20px no-repeat;
+  transition: .80s ease;
+  background-size:cover  ;
+}
+
+#card-desc-title{
+    text-align: center;
+    padding-left: 10px;
+    
+
+}
+
+.flex-box1 {
+  margin: 20px;
+  padding-bottom: 120px;
+  margin-top: 20px;
+  margin-left: 0px; 
+ 
+}
+
+.Achieve-grid {
+  min-height: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Achieve-grid > div {
+  flex-basis: calc(45% - 80px);
+}
+
+

@@ -1,0 +1,10 @@
+.error{
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    
+    margin: 60px 280px;
+    padding: 255px;
+    color: red;
+    background: url(https://kfg6bckb.media.zestyio.com/yalantis-interactive-404.gif);
+}

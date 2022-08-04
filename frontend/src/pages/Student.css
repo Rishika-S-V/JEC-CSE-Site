@@ -1,0 +1,25 @@
+.student-batch{
+    font-size: 20px;
+}
+
+#select-batch{
+   padding: 20px;
+   width: 250px; 
+    border-style:dotted;
+}
+
+.student-namelist{
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 05px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 80rem;
+    margin-left:80px;
+    margin-right:80px;
+    font-size: 20px;
+}
+
+.student-left{
+    margin-left: 750px;
+}

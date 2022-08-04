@@ -1,0 +1,49 @@
+.head1{
+    padding: 35px;
+    text-align: center;
+    left:450px;
+    position: relative;
+    bottom: 60px;
+    color:white;
+    text-decoration: none;
+    
+}
+
+.iclose{
+    margin-right:180px;
+    margin-bottom: 10px;
+    size: 30px;
+}
+
+a.active {
+    color: firebrick;
+}
+
+
+.inactive {
+    color: #fff;
+    text-decoration: none;
+}
+
+.activ {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active:hover {
+    color: red;
+    text-decoration: none;
+  }
+
+.inactive:hover{
+    color: red;
+}
+
+
+@media (min-width: 1025px) and (max-width: 1290px) {    
+    .Nav{
+        flex: auto;
+        display: flex;
+        width: 100%;
+    }
+  }

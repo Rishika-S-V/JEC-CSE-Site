@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four notes-columns side by side */
+  .notes-column {
+    float: left;
+    width: 300px;
+    margin: 25px;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 45px;
+    height: 150px;
+    
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .notes-row {margin: 0px 0px;}
+  
+  /* Clear floats after the notes-columns */
+  .notes-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  /* Responsive notes-columns */
+  @media screen and (max-width: 600px) {
+    .notes-column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter notes-cards */
+  .notes-card {
+    box-shadow: 10px 8px 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #ffffff;
+    
+  }
+  

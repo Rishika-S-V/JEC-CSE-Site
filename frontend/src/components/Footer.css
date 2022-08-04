@@ -1,0 +1,133 @@
+body{
+    bottom: 0;
+    margin: 0;
+}
+
+footer {
+    color: #fff;
+    min-width: 85rem;
+    padding: 4% 5% 3%;
+    bottom: 0;
+    min-height: 8rem;
+    max-height: 15rem;
+    top: 120px;
+    position: relative;
+    background: url(../images/footer.jpeg) 1% 90% ;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    white-space: nowrap;
+  background-repeat:inherit;
+  background-attachment:scroll;
+  
+}
+
+footer 
+.jec_logo{
+    height: 170px;
+    width: 160px;
+    margin-left: 23%;
+    
+}
+
+jk{
+    padding-left: 25px;
+    align-items:center ;
+
+}
+
+.im{
+     margin-right: 20px;
+     text-align: center;
+     
+}
+
+li{
+    list-style: none;
+}
+
+.footer-item-value{
+    margin-top: 50px;
+    margin-left: -20px;
+    line-height: 2.5;
+}
+
+
+
+.footer-list {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-item {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+
+.footer-item p {
+    color: #eeeeee;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+li{
+    display: inline-block;
+}
+
+.list{
+    margin-bottom: 10px;
+}
+
+.youtube{
+    margin-left: 15px;
+}
+.facebook{
+    
+    margin-left: 80px;
+}
+
+.facebook1{
+    margin-left: 15px;
+}
+
+.copyright-text {
+    margin-top: 0%;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.key{
+    text-decoration: none;
+    margin: 0px 5px;
+    padding-top: 20px;
+    color: white;
+}
+
+.AICTE{
+    margin-left: -30px;
+    
+}
+
+@media (max-width:1350px){
+    .Footer-div{
+        min-width: 88rem;
+    }
+}
+@media (max-width:900px){
+    .Footer-div{
+        min-width: 90rem;
+    }
+}
+@media (max-width:650px) {
+    .Footer-div{
+        min-width: 91.7rem;
+    }
+}

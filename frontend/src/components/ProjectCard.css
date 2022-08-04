@@ -1,0 +1,43 @@
+
+.image1{
+    height: 250px;
+    width: 500px;
+    border-top: 20px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+    
+}
+
+.box2 {
+  margin: 20px;
+  padding: 20px 40px 20px 40px;
+  border-radius: 30px;
+  
+  margin-top: 20px;
+  margin-left: 50px; 
+  background-color: #57f2ed;
+ 
+}
+
+.grid3 {
+  min-height: 100%;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 90rem;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.project-btn{
+  width: 90%;
+  padding: 10px;
+  margin: 0px 10px 10px 13px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  border-width: 0;
+}
+
+

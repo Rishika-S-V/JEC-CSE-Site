@@ -1,0 +1,39 @@
+#members{
+    margin: 50px;
+    margin-left: 30px;
+    font-size: 32px;
+}
+.card-in {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin:40px;
+}
+
+
+
+.split-parag{ 
+    display:block;
+    margin:10px;
+    font-size: large;
+}
+.split-parag span { 
+    display:block;
+    float:right;
+    width:15%;
+    margin-left:20px;
+}
+.grid{
+    margin-left: 1%;
+}
+
+.academic-council-div{
+    min-width: 85rem;
+}
+
+.Faculty-div{
+    min-width: 88rem;
+    
+}
+

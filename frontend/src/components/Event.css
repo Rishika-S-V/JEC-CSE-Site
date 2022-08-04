@@ -1,0 +1,70 @@
+
+.content-image{
+  border-radius: 20px;
+  width: 500px;
+  height: 250px;
+}
+
+.box1 {
+  margin: 20px;
+  padding-bottom: 12px;
+  margin-top: 50px;
+  margin-left: 50px; 
+ margin-right: 20px;
+}
+
+
+.grid1 {
+  min-height: 100%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1450px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.grid1 > div {
+  flex-basis: calc(35% - 0px);
+}
+
+
+.content {
+  position: relative;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 140px;
+  border-radius: 20px;
+  width: 495px;
+  padding-top: 110px;
+  left: 0px;
+  top: 0px;
+  padding-left: 10px;
+  bottom:0px;
+  right: 10px;
+  color: #f1f1f1;
+  font-size: 32px;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+  
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
