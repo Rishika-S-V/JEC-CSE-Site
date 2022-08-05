@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import viteLogo from "./assets/vite.svg";
+import { BrowserRouter } from "react-router-dom";
 
 const favElement: HTMLLinkElement = document.getElementById(
   "fav-icon"
@@ -11,6 +12,8 @@ favElement.href = viteLogo;
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
