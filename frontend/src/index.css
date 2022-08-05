@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .footer-navlink {
+    @apply text-sm font-semibold underline underline-offset-4 outline-none ring-gray-300 ring-offset-2 ring-offset-transparent transition-all duration-75 ease-linear focus-visible:ring-1  md:text-lg;
+  }
+  .footer-navlink.active {
+    @apply scale-105 text-sm font-semibold text-gray-400 underline underline-offset-4 outline-none ring-gray-300 ring-offset-2 ring-offset-transparent focus-visible:ring-1  md:text-lg;
+  }
+}

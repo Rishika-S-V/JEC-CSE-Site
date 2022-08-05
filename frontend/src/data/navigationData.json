@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Home",
+    "to": "#"
+  },
+  {
+    "text": "AcademicCouncil",
+    "to": ""
+  },
+  {
+    "text": "Achievements",
+    "to": ""
+  },
+  {
+    "text": "Alumni",
+    "to": ""
+  },
+  {
+    "text": "Clubs",
+    "to": ""
+  },
+  {
+    "text": "Events",
+    "to": ""
+  },
+  {
+    "text": "Faculty",
+    "to": ""
+  },
+  {
+    "text": "Gallery",
+    "to": ""
+  },
+  {
+    "text": "Infrastructure",
+    "to": ""
+  },
+  {
+    "text": "Programmes",
+    "to": ""
+  },
+  {
+    "text": "Projects",
+    "to": ""
+  },
+  {
+    "text": "Students",
+    "to": ""
+  }
+]
