@@ -10,11 +10,19 @@ import { ReactComponent as JecLogoWhite } from "../../assets/imgs/jec-logo-white
 import footerImg from "../../assets/imgs/footer.jpeg";
 import { NavLink } from "react-router-dom";
 
-const Footer = () => {
+type FooterProps = {
+  classes?: string;
+};
+
+const Footer = ({ classes }: FooterProps) => {
   const logoSize = "5rem";
   return (
     <footer
-      className="relative flex w-full flex-col-reverse justify-between gap-4 bg-gray-900 bg-cover bg-top bg-no-repeat fill-gray-50 stroke-gray-500 p-4 pb-10 text-gray-50 md:flex-row md:gap-2 lg:pb-4"
+      className={
+        "relative flex w-full flex-col-reverse justify-between gap-4 bg-gray-900 bg-cover bg-top bg-no-repeat fill-gray-50 stroke-gray-500 p-4 pb-10 text-gray-50 md:flex-row md:gap-2 lg:pb-4" +
+        " " +
+        classes
+      }
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${footerImg})`,
       }}
