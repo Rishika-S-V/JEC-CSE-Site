@@ -18,6 +18,13 @@ const CUSTOM_DEVICE_VIEWPORTS = {
   },
 };
 const TAILWIND_BREAKPOINTS = {
+  xs: {
+    name: "Tailwind xs",
+    styles: {
+      width: "375px",
+      height: "900px",
+    },
+  },
   sm: {
     name: "Tailwind sm",
     styles: {
