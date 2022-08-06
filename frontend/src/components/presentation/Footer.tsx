@@ -9,12 +9,13 @@ import { ReactComponent as JecLogoWhite } from "../../assets/imgs/jec-logo-white
 
 import footerImg from "../../assets/imgs/footer.jpeg";
 import { NavLink } from "react-router-dom";
+import { FC } from "react";
 
 type FooterProps = {
   classes?: string;
 };
 
-const Footer = ({ classes }: FooterProps) => {
+const Footer: FC<FooterProps> = ({ classes }) => {
   const logoSize = "5rem";
   return (
     <footer

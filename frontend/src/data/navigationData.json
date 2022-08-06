@@ -1,50 +1,62 @@
 [
   {
     "text": "Home",
-    "to": "#"
+    "to": "#",
+    "isOnHome": true
   },
   {
     "text": "AcademicCouncil",
-    "to": ""
+    "to": "",
+    "isOnHome": true
   },
   {
     "text": "Achievements",
-    "to": ""
+    "to": "",
+    "isOnHome": true
   },
   {
     "text": "Alumni",
-    "to": ""
+    "to": "",
+    "isOnHome": false
   },
   {
     "text": "Clubs",
-    "to": ""
+    "to": "",
+    "isOnHome": false
   },
   {
     "text": "Events",
-    "to": ""
+    "to": "",
+    "isOnHome": false
   },
   {
     "text": "Faculty",
-    "to": ""
+    "to": "",
+    "isOnHome": false
   },
   {
     "text": "Gallery",
-    "to": ""
+    "to": "",
+    "isOnHome": false
   },
   {
     "text": "Infrastructure",
-    "to": ""
+    "to": "",
+    "isOnHome": false
   },
   {
     "text": "Programmes",
-    "to": ""
+    "to": "",
+    "isOnHome": true
   },
   {
     "text": "Projects",
-    "to": ""
+    "to": "",
+    "isOnHome": false
   },
   {
     "text": "Students",
-    "to": ""
+    "to": "",
+    "isOnHome": false
   }
 ]
