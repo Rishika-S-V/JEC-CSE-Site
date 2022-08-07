@@ -3,7 +3,7 @@ import navigationData from "../../data/navigationData.json";
 import { ReactComponent as Bars } from "../../assets/icons/bars-solid.svg";
 import { ReactComponent as XMark } from "../../assets/icons/xmark-solid.svg";
 
-import { FC, useState } from "react";
+import { FC, ReactNode, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Dialog } from "@headlessui/react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -13,6 +13,7 @@ interface HeaderProps {
   variant?: "DEFAULT" | "HOME";
   classes?: string;
   title?: string;
+  children?: ReactNode;
 }
 
 interface HomeHeaderProps extends HeaderProps {
@@ -72,64 +73,80 @@ const NavigationModal: FC<NavigationModalProps> = ({ isOpen, setIsOpen }) => {
 
 const HomeHeader: FC<HomeHeaderProps> = ({
   classes,
+  children,
   isNavOpen,
   setIsNavOpen,
 }) => {
   return (
-    <header
-      className={
-        "flex items-center justify-start bg-primary/80 px-4 py-2 text-gray-50 sm:justify-end sm:px-4" +
-        " " +
-        classes
-      }
-    >
-      <Bars
-        className=" w-5 cursor-pointer fill-gray-50 sm:hidden"
-        role="button"
-        onClick={(e) => {
-          setIsNavOpen((prev) => !prev);
-        }}
-      />
-      <ul className="hidden flex-wrap justify-center gap-2 text-sm sm:flex sm:gap-4 sm:text-base">
-        {navigationData
-          .filter((nav) => nav.isOnHome)
-          .map((nav, i) => (
-            <li key={i} className="font-semibold underline underline-offset-4">
-              <NavLink to={nav.to}>{nav.text}</NavLink>
-            </li>
-          ))}
-      </ul>
-    </header>
+    <>
+      <header
+        className={
+          "absolute left-0 right-0 flex items-center justify-start bg-primary/80 px-4 py-2 text-gray-50 sm:justify-end sm:px-4" +
+          " " +
+          classes
+        }
+      >
+        <Bars
+          className=" w-5 cursor-pointer fill-gray-50 sm:hidden"
+          role="button"
+          onClick={(e) => {
+            setIsNavOpen((prev) => !prev);
+          }}
+        />
+        <ul className="hidden flex-wrap justify-center gap-2 text-sm sm:flex sm:gap-4 sm:text-base">
+          {navigationData
+            .filter((nav) => nav.isOnHome)
+            .map((nav, i) => (
+              <li
+                key={i}
+                className="font-semibold underline underline-offset-4"
+              >
+                <NavLink to={nav.to}>{nav.text}</NavLink>
+              </li>
+            ))}
+        </ul>
+      </header>
+      {children}
+    </>
   );
 };
 
 const DefaultHeader: FC<DefaultHeaderProps> = ({
   classes,
   title,
+  children,
   isNavOpen,
   setIsNavOpen,
 }) => {
   return (
-    <header
-      className={
-        "relative flex items-center justify-center bg-primary fill-gray-50 p-2 font-semibold text-gray-50" +
-        " " +
-        classes
-      }
-    >
-      <Bars
-        className="absolute top-1/2 left-2 w-5 -translate-y-1/2 cursor-pointer sm:left-4"
-        role="button"
-        onClick={(e) => {
-          setIsNavOpen((prev) => !prev);
-        }}
-      />
-      <h1 className="text-3xl font-bold">{title}</h1>
-    </header>
+    <>
+      <header
+        className={
+          "relative flex items-center justify-center bg-primary fill-gray-50 p-2 font-semibold text-gray-50" +
+          " " +
+          classes
+        }
+      >
+        <Bars
+          className="absolute top-1/2 left-2 w-5 -translate-y-1/2 cursor-pointer sm:left-4"
+          role="button"
+          onClick={(e) => {
+            setIsNavOpen((prev) => !prev);
+          }}
+        />
+        <h1 className="text-3xl font-bold">{title}</h1>
+      </header>
+      {children}
+    </>
   );
 };
 
-const Header: FC<HeaderProps> = ({ variant = "DEFAULT", classes, title }) => {
+const Header: FC<HeaderProps> = ({
+  variant = "DEFAULT",
+  classes,
+  title,
+  children,
+}) => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
@@ -140,13 +157,17 @@ const Header: FC<HeaderProps> = ({ variant = "DEFAULT", classes, title }) => {
           title={title as string}
           isNavOpen={navOpen}
           setIsNavOpen={setNavOpen}
-        />
+        >
+          {children}
+        </DefaultHeader>
       ) : (
         <HomeHeader
           classes={classes}
           isNavOpen={navOpen}
           setIsNavOpen={setNavOpen}
-        />
+        >
+          {children}
+        </HomeHeader>
       )}
 
       <AnimatePresence>

@@ -13,7 +13,10 @@ export default {
 
 const Template: ComponentStory<typeof Header> = (args) => (
   <BrowserRouter>
-    <Header {...args} />
+    <Header {...args}>
+      <h1>Hi from Child 1</h1>
+      <p>Hi from Child 2</p>
+    </Header>
   </BrowserRouter>
 );
 

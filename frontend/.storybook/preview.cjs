@@ -29,35 +29,35 @@ const TAILWIND_BREAKPOINTS = {
   sm: {
     name: "Tailwind sm",
     styles: {
-      width: "640px",
+      width: "641px",
       height: "900px",
     },
   },
   md: {
     name: "Tailwind md",
     styles: {
-      width: "768px",
+      width: "769px",
       height: "900px",
     },
   },
   lg: {
     name: "Tailwind lg",
     styles: {
-      width: "1024px",
+      width: "1025px",
       height: "900px",
     },
   },
   xl: {
     name: "Tailwind xl",
     styles: {
-      width: "1280px",
+      width: "1281px",
       height: "900px",
     },
   },
   "2xl": {
     name: "Tailwind 2xl",
     styles: {
-      width: "1536px",
+      width: "1537px",
       height: "900px",
     },
   },
