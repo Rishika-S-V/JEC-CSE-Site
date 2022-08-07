@@ -9,4 +9,15 @@
   .footer-navlink.active {
     @apply scale-105 text-sm font-semibold text-gray-400 underline underline-offset-4 outline-none ring-gray-300 ring-offset-2 ring-offset-transparent focus-visible:ring-1  md:text-lg;
   }
+
+  .navModal-navLink {
+    @apply rounded-sm px-2 py-1 outline-none ring-gray-50 transition-all duration-75 focus-visible:ring-1;
+  }
+  .navModal-navLink.active {
+    @apply text-2xl font-bold text-white;
+  }
+}
+
+.debug {
+  @apply outline outline-red-500/50;
 }

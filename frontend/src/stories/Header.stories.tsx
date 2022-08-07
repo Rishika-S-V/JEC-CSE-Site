@@ -7,7 +7,7 @@ export default {
   title: "Presentational Components/Header",
   component: Header,
   argTypes: {
-    type: { control: { type: "select" } },
+    variant: { control: { type: "select" } },
   },
 } as ComponentMeta<typeof Header>;
 
@@ -18,7 +18,7 @@ const Template: ComponentStory<typeof Header> = (args) => (
 );
 
 export const Default = Template.bind({});
-Default.args = { type: "DEFAULT" };
+Default.args = { variant: "DEFAULT", title: "Page Title" };
 
 export const Home = Template.bind({});
-Home.args = { type: "HOME" };
+Home.args = { variant: "HOME" };
