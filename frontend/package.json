@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "storybook": "^6.5.10",
+    "tailwind-scrollbar-hide": "^1.1.7",
     "vite-plugin-svgr": "^2.2.1"
   },
   "devDependencies": {
