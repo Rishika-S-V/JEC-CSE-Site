@@ -9,6 +9,9 @@ export default {
   argTypes: {
     variant: { control: { type: "select" } },
   },
+  parameters: {
+    layout: "fullscreen",
+  },
 } as ComponentMeta<typeof Header>;
 
 const Template: ComponentStory<typeof Header> = (args) => (
