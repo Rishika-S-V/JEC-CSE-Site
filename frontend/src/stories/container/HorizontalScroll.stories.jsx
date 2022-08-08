@@ -1,6 +1,7 @@
 import React from "react";
 
 import { HorizontalScroll } from "../../components/container";
+import { Card1 } from "../../components/presentation";
 
 export default {
   title: "Container Components/HorizontalScroll",
@@ -35,3 +36,20 @@ const Template = ({ numberOfChildren, width, height, ...args }) => (
 
 export const Default = Template.bind({});
 Default.args = {};
+
+export const WithCard1 = ({ numberOfChildren, width, height, ...args }) => (
+  <HorizontalScroll {...args}>
+    {[...Array(numberOfChildren).keys()].map((n, i) => (
+      <Card1
+        key={i}
+        text={`Card ${n + 1}`}
+        imgUrl="https://unsplash.it/1080"
+        style={{
+          display: "inline-flex",
+          width: `${width}rem`,
+          height: `${height}rem`,
+        }}
+      />
+    ))}
+  </HorizontalScroll>
+);

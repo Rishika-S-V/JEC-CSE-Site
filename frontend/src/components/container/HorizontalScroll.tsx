@@ -27,12 +27,6 @@ const HorizontalScroll: FC<HorizontalScrollProps> = ({
   return (
     <div className="relative flex items-center sm:px-8">
       <div className="h2 hidden w-2"></div>
-      <Arrow
-        className={
-          "left-0 " + (controlClasses ? controlClasses : defaultArrowClasses)
-        }
-        onClick={scrollLeft}
-      />
       <div
         ref={sliderRef}
         className={
@@ -42,6 +36,12 @@ const HorizontalScroll: FC<HorizontalScrollProps> = ({
       >
         {children}
       </div>
+      <Arrow
+        className={
+          "left-0 " + (controlClasses ? controlClasses : defaultArrowClasses)
+        }
+        onClick={scrollLeft}
+      />
       <Arrow
         className={
           "right-0 rotate-180 " +
