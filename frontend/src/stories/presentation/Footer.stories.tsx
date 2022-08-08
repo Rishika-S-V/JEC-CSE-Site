@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 
-import { Footer } from "../components/presentation";
+import { Footer } from "../../components/presentation";
 
 export default {
   title: "Presentational Components/Footer",

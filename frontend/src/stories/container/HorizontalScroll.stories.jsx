@@ -1,6 +1,6 @@
 import React from "react";
 
-import { HorizontalScroll } from "../components/container";
+import { HorizontalScroll } from "../../components/container";
 
 export default {
   title: "Container Components/HorizontalScroll",
