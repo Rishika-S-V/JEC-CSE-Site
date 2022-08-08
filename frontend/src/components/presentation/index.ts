@@ -2,5 +2,6 @@ import Button from "./Button";
 import Footer from "./Footer";
 import Header from "./Header";
 import Card1 from "./Card1";
+import Hero from "./Hero";
 
-export { Button, Header, Footer, Card1 };
+export { Button, Header, Footer, Hero, Card1 };

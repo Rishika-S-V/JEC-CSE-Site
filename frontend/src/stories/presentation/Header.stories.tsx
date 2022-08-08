@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import { Header } from "../components/presentation";
+import { Footer, Header } from "../../components/presentation";
 import { BrowserRouter } from "react-router-dom";
 
 export default {
@@ -16,10 +16,7 @@ export default {
 
 const Template: ComponentStory<typeof Header> = (args) => (
   <BrowserRouter>
-    <Header {...args}>
-      <h1>Hi from Child 1</h1>
-      <p>Hi from Child 2</p>
-    </Header>
+    <Header {...args}></Header>
   </BrowserRouter>
 );
 
@@ -28,3 +25,16 @@ Default.args = { variant: "DEFAULT", title: "Page Title" };
 
 export const Home = Template.bind({});
 Home.args = { variant: "HOME" };
+
+export const WithLayout: ComponentStory<typeof Header> = (args) => (
+  <BrowserRouter>
+    <div className="flex min-h-screen flex-col">
+      <Header {...args}>
+        <h1>Hi from Child 1</h1>
+        <p>Hi from Child 2</p>
+      </Header>
+      <Footer classes="mt-auto" />
+    </div>
+  </BrowserRouter>
+);
+WithLayout.args = { variant: "DEFAULT", title: "Page Title" };
