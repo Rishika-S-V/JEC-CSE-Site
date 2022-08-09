@@ -37,5 +37,5 @@ def main():
 
 
 if __name__ == "__main__":
-    PATH = "website/db.sqlite3"
+    PATH = "db.sqlite3"
     main()
