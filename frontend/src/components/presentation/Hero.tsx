@@ -34,7 +34,7 @@ const Hero: FC = () => {
         </div>
       </div>
 
-      <h2 className="flex flex-col gap-4 text-4xl font-bold uppercase lg:gap-2 lg:text-5xl xl:text-6xl">
+      <h2 className="flex flex-col text-4xl font-bold uppercase lg:gap-2 lg:text-5xl xl:text-6xl">
         <p>Department of</p>
         <p>computer science and engineering</p>
       </h2>

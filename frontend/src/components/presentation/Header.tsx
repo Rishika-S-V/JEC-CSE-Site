@@ -1,4 +1,4 @@
-import navigationData from "../../data/navigationData.json";
+import navigationData from "../../data/navigationData";
 
 import { ReactComponent as Bars } from "../../assets/icons/bars-solid.svg";
 import { ReactComponent as XMark } from "../../assets/icons/xmark-solid.svg";

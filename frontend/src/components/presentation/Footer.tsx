@@ -1,4 +1,4 @@
-import navigationData from "../../data/navigationData.json";
+import navigationData from "../../data/navigationData";
 
 import { ReactComponent as EnvelopeIcon } from "../../assets/icons/envelope-solid.svg";
 import { ReactComponent as PhoneIcon } from "../../assets/icons/phone-solid.svg";

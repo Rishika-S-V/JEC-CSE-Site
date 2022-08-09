@@ -1,29 +1,24 @@
-import { useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import Page1 from "./pages/page1";
+import { Routes, Route } from "react-router-dom";
+import { Footer, Header } from "./components/presentation";
+import { Home } from "./pages";
 import Page2 from "./pages/page2";
 
 function App() {
   return (
-    <div>
-      <div className="">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Page1</Link>
-            </li>
-            <li>
-              <Link to="/2">Page2</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
+    <>
       <Routes>
-        <Route path="/" element={<Page1 />} />
+        <Route
+          path="/"
+          element={
+            <Header variant="HOME">
+              <Home />
+            </Header>
+          }
+        />
         <Route path="/2" element={<Page2 />} />
       </Routes>
-    </div>
+      <Footer />
+    </>
   );
 }
 
