@@ -45,7 +45,6 @@ export const WithCard1 = ({ numberOfChildren, width, height, ...args }) => (
         text={`Card ${n + 1}`}
         imgUrl="https://unsplash.it/1080"
         style={{
-          display: "inline-flex",
           width: `${width}rem`,
           height: `${height}rem`,
         }}
