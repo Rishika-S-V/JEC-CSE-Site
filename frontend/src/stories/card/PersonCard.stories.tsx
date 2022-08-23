@@ -16,5 +16,5 @@ const Template: ComponentStory<typeof PersonCard> = (args) => (
   <PersonCard {...args} />
 );
 
-export const Story = Template.bind({});
-Story.args = {};
+export const Default = Template.bind({});
+Default.args = {};

@@ -12,7 +12,11 @@ export default {
   },
 } as ComponentMeta<typeof Home>;
 
-const Template: ComponentStory<typeof Home> = (args) => <Home {...args} />;
+const Template: ComponentStory<typeof Home> = (args) => (
+  <BrowserRouter>
+    <Home {...args} />
+  </BrowserRouter>
+);
 
 export const Default = Template.bind({});
 
