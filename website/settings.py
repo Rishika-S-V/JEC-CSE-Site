@@ -87,15 +87,13 @@ DATABASES = {
     # }
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "d9mfm1vpr2pofk",
-        "USER": "kjupvkhtxpieml",
-        "PASSWORD": "7379b2d060c800c6c650f8a3004b77094b06d86deeb4040d253f82edf378a2c4",
-        "HOST": "ec2-52-48-159-67.eu-west-1.compute.amazonaws.com",
+        "NAME": "lhmicmnb",
+        "USER": "lhmicmnb",
+        "PASSWORD": "95FngHZ8oQJX4f0VGnOp6RnDPNQkayqX",
+        "HOST": "arjuna.db.elephantsql.com",
         "PORT": "5432",
     }
 }
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES["default"].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
