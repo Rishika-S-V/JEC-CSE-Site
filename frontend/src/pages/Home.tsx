@@ -31,7 +31,6 @@ const Home: FC = () => {
             </p>
           </section>
           <aside className="flex w-fit flex-col items-center justify-center rounded-2xl bg-sky-200 px-8 py-6 ">
-            {/* <p className="text-xl font-bold text-gray-50">300</p> */}
             <CountUp
               end={30000}
               separator=","
@@ -50,9 +49,8 @@ const Home: FC = () => {
             {navigationData
               .filter((nav) => !nav.isOnHome)
               .map((nav, i) => (
-                <Link to={nav.to}>
+                <Link key={i} to={nav.to}>
                   <Card1
-                    key={i}
                     text={nav.text}
                     imgUrl={nav.imgUrl}
                     style={{
