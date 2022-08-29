@@ -1,7 +1,7 @@
 const navigationData = [
   {
     text: "Home",
-    to: "#",
+    to: "/",
     isOnHome: true,
     imgUrl: "https://unsplash.it/1080",
   },
@@ -49,7 +49,7 @@ const navigationData = [
   },
   {
     text: "Infrastructure",
-    to: "",
+    to: "/infrastructure",
     isOnHome: false,
     imgUrl: "https://unsplash.it/1080",
   },
