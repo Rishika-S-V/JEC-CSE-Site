@@ -3,15 +3,17 @@ import { IInfrastructureItem } from "../../types/Infrastructured";
 import { HorizontalScroll } from "../container";
 import tailwindData from "../../data/tailwind.json";
 
-const InfrastructureItem: FC<Partial<IInfrastructureItem>> = ({
-  title,
-  description,
-  images,
-}) => {
+interface InfrastructureProps {
+  HTMLId?: string;
+}
+
+const InfrastructureItem: FC<
+  Partial<IInfrastructureItem> & InfrastructureProps
+> = ({ title, description, images, HTMLId }) => {
   const vw = Math.ceil(visualViewport.width);
   const bp = tailwindData.breakpoints;
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3" id={HTMLId && HTMLId}>
       <h3 className="text-2xl font-semibold text-gray-900">{title}</h3>
       <HorizontalScroll>
         {images?.map((img, i) => (
