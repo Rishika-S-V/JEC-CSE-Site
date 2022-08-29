@@ -156,6 +156,8 @@ REST_FRAMEWORK = {
     ],
 }
 
+CORS_ORIGIN_ALLOW_ALL = True
+
 if DEBUG:
     CORS_ORIGIN_WHITELIST = [
         "http://localhost:3000",
