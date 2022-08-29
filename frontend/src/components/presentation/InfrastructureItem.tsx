@@ -37,9 +37,7 @@ const InfrastructureItem: FC<
           />
         ))}
       </HorizontalScroll>
-      <p className="mx-auto max-w-6xl px-3 text-gray-600 xl:px-0">
-        {description}
-      </p>
+      <p className="mx-auto px-3 text-gray-600 xl:px-8">{description}</p>
     </div>
   );
 };
