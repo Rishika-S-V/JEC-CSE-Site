@@ -11,7 +11,7 @@ const favElement: HTMLLinkElement = document.getElementById(
 ) as HTMLLinkElement;
 favElement.href = JecLogo;
 
-axios.defaults.baseURL = "https://clg-site.herokuapp.com/api/";
+axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL;
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>

@@ -5,7 +5,7 @@ import axios from "axios";
 
 import { Infrastructure } from "../../pages";
 
-axios.defaults.baseURL = "https://clg-site.herokuapp.com/api/";
+axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL;
 
 export default {
   title: "Pages/Infrastructure",

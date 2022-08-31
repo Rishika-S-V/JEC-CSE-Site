@@ -18,6 +18,7 @@ const Infrastructure: FC = () => {
         {apiData &&
           apiData.map((inf) => (
             <a
+              key={`breadcrumb-inf-${inf.id}`}
               className="rounded bg-secondary px-4 py-2 font-semibold text-gray-100"
               href={`#inf-${inf.id}`}
             >

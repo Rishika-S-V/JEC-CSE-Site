@@ -3,7 +3,7 @@ env/
 **/__pycache__
 **/migrations
 *.sqlite3
-./media/
+media
 
 **/*.lock
 
