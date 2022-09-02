@@ -18,6 +18,7 @@ const InfrastructureItem: FC<
       <HorizontalScroll>
         {images?.map((img, i) => (
           <img
+            key={i}
             className="inline-flex aspect-video rounded-lg object-cover object-center"
             src={img}
             style={{
