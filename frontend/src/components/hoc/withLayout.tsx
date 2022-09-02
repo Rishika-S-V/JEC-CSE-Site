@@ -6,7 +6,7 @@ function withLayout<P>(Component: ComponentType<P>, headerTitle?: string) {
     <>
       <Header title={headerTitle} variant={headerTitle ? "DEFAULT" : "HOME"} />
       <Component {...props} />
-      <Footer />
+      <Footer classes="mt-auto" />
     </>
   );
 

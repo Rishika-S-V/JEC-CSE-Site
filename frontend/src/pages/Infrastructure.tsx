@@ -4,7 +4,7 @@ import { IInfrastructureItem } from "../types/Infrastructured";
 import { InfrastructureItem } from "../components/presentation";
 
 const Infrastructure: FC = () => {
-  const [apiData, setApiData] = useState<IInfrastructureItem[]>();
+  const [apiData, setApiData] = useState<IInfrastructureItem[]>([]);
 
   useEffect(() => {
     axios.get("infrastructure/", {}).then((res) => {
@@ -12,7 +12,9 @@ const Infrastructure: FC = () => {
     });
   }, []);
 
-  return (
+  return apiData == [] ? (
+    <p>Loading</p>
+  ) : (
     <div className="my-6 flex flex-col gap-7 px-4">
       <div className="mx-auto flex flex-wrap justify-center gap-3">
         {apiData &&

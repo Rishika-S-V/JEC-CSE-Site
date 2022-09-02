@@ -43,7 +43,7 @@ const navigationData = [
   },
   {
     text: "Gallery",
-    to: "",
+    to: "/gallery",
     isOnHome: false,
     imgUrl: "https://unsplash.it/1080",
   },
